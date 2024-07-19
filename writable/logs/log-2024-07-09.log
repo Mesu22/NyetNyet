@@ -1,0 +1,439 @@
+CRITICAL - 2024-07-09 04:49:45 --> ErrorException: Undefined variable $portfolios
+[Method: GET, Route: /]
+in APPPATH\Views\users\beranda\index.php on line 316.
+ 1 APPPATH\Views\users\beranda\index.php(316): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $portfolios', 'C:\\xampp\\htdocs\\lndgpgms\\app\\Views\\users\\beranda\\index.php', 316)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\lndgpgms\\app\\Views\\users\\beranda\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('users/beranda/index', [], true)
+ 5 APPPATH\Controllers\BerandaController.php(12): view('users/beranda/index')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BerandaController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BerandaController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\lndgpgms\\public\\index.php')
+CRITICAL - 2024-07-09 04:49:48 --> ErrorException: Undefined variable $portfolios
+[Method: GET, Route: /]
+in APPPATH\Views\users\beranda\index.php on line 316.
+ 1 APPPATH\Views\users\beranda\index.php(316): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $portfolios', 'C:\\xampp\\htdocs\\lndgpgms\\app\\Views\\users\\beranda\\index.php', 316)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\lndgpgms\\app\\Views\\users\\beranda\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('users/beranda/index', [], true)
+ 5 APPPATH\Controllers\BerandaController.php(12): view('users/beranda/index')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BerandaController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BerandaController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\lndgpgms\\public\\index.php')
+CRITICAL - 2024-07-09 04:49:49 --> ErrorException: Undefined variable $portfolios
+[Method: GET, Route: /]
+in APPPATH\Views\users\beranda\index.php on line 316.
+ 1 APPPATH\Views\users\beranda\index.php(316): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $portfolios', 'C:\\xampp\\htdocs\\lndgpgms\\app\\Views\\users\\beranda\\index.php', 316)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\lndgpgms\\app\\Views\\users\\beranda\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('users/beranda/index', [], true)
+ 5 APPPATH\Controllers\BerandaController.php(12): view('users/beranda/index')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BerandaController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BerandaController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\lndgpgms\\public\\index.php')
+CRITICAL - 2024-07-09 04:49:49 --> ErrorException: Undefined variable $portfolios
+[Method: GET, Route: /]
+in APPPATH\Views\users\beranda\index.php on line 316.
+ 1 APPPATH\Views\users\beranda\index.php(316): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $portfolios', 'C:\\xampp\\htdocs\\lndgpgms\\app\\Views\\users\\beranda\\index.php', 316)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\lndgpgms\\app\\Views\\users\\beranda\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('users/beranda/index', [], true)
+ 5 APPPATH\Controllers\BerandaController.php(12): view('users/beranda/index')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BerandaController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BerandaController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\lndgpgms\\public\\index.php')
+CRITICAL - 2024-07-09 04:49:57 --> ErrorException: Undefined variable $portfolios
+[Method: GET, Route: /]
+in APPPATH\Views\users\beranda\index.php on line 316.
+ 1 APPPATH\Views\users\beranda\index.php(316): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $portfolios', 'C:\\xampp\\htdocs\\lndgpgms\\app\\Views\\users\\beranda\\index.php', 316)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\lndgpgms\\app\\Views\\users\\beranda\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('users/beranda/index', [], true)
+ 5 APPPATH\Controllers\BerandaController.php(12): view('users/beranda/index')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BerandaController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BerandaController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\lndgpgms\\public\\index.php')
+INFO - 2024-07-09 04:50:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-09 04:51:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-09 04:53:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-09 04:54:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-09 05:02:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-09 05:02:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-09 05:02:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-09 05:02:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-09 05:02:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-09 05:02:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-09 05:04:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-09 05:04:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-09 05:04:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-09 05:08:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-09 05:08:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-09 05:08:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-09 07:52:34 --> ErrorException: Undefined variable $portfolios
+[Method: GET, Route: Beranda]
+in APPPATH\Views\users\beranda\index.php on line 303.
+ 1 APPPATH\Views\users\beranda\index.php(303): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $portfolios', 'C:\\xampp\\htdocs\\lndgpgms\\app\\Views\\users\\beranda\\index.php', 303)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\lndgpgms\\app\\Views\\users\\beranda\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('users/beranda/index', [], true)
+ 5 APPPATH\Controllers\BerandaController.php(12): view('users/beranda/index')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BerandaController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BerandaController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\lndgpgms\\public\\index.php')
+CRITICAL - 2024-07-09 07:53:15 --> ErrorException: Undefined variable $portfolios
+[Method: GET, Route: Beranda]
+in APPPATH\Views\users\beranda\index.php on line 303.
+ 1 APPPATH\Views\users\beranda\index.php(303): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $portfolios', 'C:\\xampp\\htdocs\\lndgpgms\\app\\Views\\users\\beranda\\index.php', 303)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\lndgpgms\\app\\Views\\users\\beranda\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('users/beranda/index', [], true)
+ 5 APPPATH\Controllers\BerandaController.php(12): view('users/beranda/index')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BerandaController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BerandaController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\lndgpgms\\public\\index.php')
+CRITICAL - 2024-07-09 07:53:16 --> ErrorException: Undefined variable $portfolios
+[Method: GET, Route: Beranda]
+in APPPATH\Views\users\beranda\index.php on line 303.
+ 1 APPPATH\Views\users\beranda\index.php(303): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $portfolios', 'C:\\xampp\\htdocs\\lndgpgms\\app\\Views\\users\\beranda\\index.php', 303)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\lndgpgms\\app\\Views\\users\\beranda\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('users/beranda/index', [], true)
+ 5 APPPATH\Controllers\BerandaController.php(12): view('users/beranda/index')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BerandaController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BerandaController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\lndgpgms\\public\\index.php')
+CRITICAL - 2024-07-09 07:53:16 --> ErrorException: Undefined variable $portfolios
+[Method: GET, Route: Beranda]
+in APPPATH\Views\users\beranda\index.php on line 303.
+ 1 APPPATH\Views\users\beranda\index.php(303): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $portfolios', 'C:\\xampp\\htdocs\\lndgpgms\\app\\Views\\users\\beranda\\index.php', 303)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\lndgpgms\\app\\Views\\users\\beranda\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('users/beranda/index', [], true)
+ 5 APPPATH\Controllers\BerandaController.php(12): view('users/beranda/index')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BerandaController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BerandaController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\lndgpgms\\public\\index.php')
+CRITICAL - 2024-07-09 07:53:24 --> ErrorException: Undefined variable $portfolios
+[Method: GET, Route: Beranda]
+in APPPATH\Views\users\beranda\index.php on line 303.
+ 1 APPPATH\Views\users\beranda\index.php(303): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $portfolios', 'C:\\xampp\\htdocs\\lndgpgms\\app\\Views\\users\\beranda\\index.php', 303)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\lndgpgms\\app\\Views\\users\\beranda\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('users/beranda/index', [], true)
+ 5 APPPATH\Controllers\BerandaController.php(12): view('users/beranda/index')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BerandaController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BerandaController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\lndgpgms\\public\\index.php')
+INFO - 2024-07-09 08:20:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-09 08:20:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-09 08:20:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-09 08:20:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-09 08:20:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-09 08:22:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-09 08:22:19 --> mysqli_sql_exception: Unknown database 'database_name'
+[Method: GET, Route: admin/portfolio]
+in APPPATH\Views\admin\portfolio.php on line 8.
+ 1 APPPATH\Views\admin\portfolio.php(8): mysqli->__construct('localhost', 'root', Object(SensitiveParameterValue), 'database_name')
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\lndgpgms\\app\\Views\\admin\\portfolio.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/portfolio', [], true)
+ 5 APPPATH\Controllers\AdminPortfolioController.php(22): view('admin/portfolio', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AdminPortfolioController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminPortfolioController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\lndgpgms\\public\\index.php')
+INFO - 2024-07-09 08:22:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-09 08:22:21 --> mysqli_sql_exception: Unknown database 'database_name'
+[Method: GET, Route: admin/portfolio]
+in APPPATH\Views\admin\portfolio.php on line 8.
+ 1 APPPATH\Views\admin\portfolio.php(8): mysqli->__construct('localhost', 'root', Object(SensitiveParameterValue), 'database_name')
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\lndgpgms\\app\\Views\\admin\\portfolio.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/portfolio', [], true)
+ 5 APPPATH\Controllers\AdminPortfolioController.php(22): view('admin/portfolio', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AdminPortfolioController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminPortfolioController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\lndgpgms\\public\\index.php')
+INFO - 2024-07-09 08:22:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-09 08:27:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-09 08:27:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-09 08:36:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-09 08:36:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-09 08:36:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-09 08:36:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-09 08:36:55 --> ErrorException: Undefined variable $portfolios
+[Method: GET, Route: Beranda]
+in APPPATH\Views\users\beranda\index.php on line 314.
+ 1 APPPATH\Views\users\beranda\index.php(314): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $portfolios', 'C:\\xampp\\htdocs\\lndgpgms\\app\\Views\\users\\beranda\\index.php', 314)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\lndgpgms\\app\\Views\\users\\beranda\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('users/beranda/index', [], true)
+ 5 APPPATH\Controllers\BerandaController.php(12): view('users/beranda/index')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BerandaController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BerandaController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\lndgpgms\\public\\index.php')
+CRITICAL - 2024-07-09 08:38:30 --> ErrorException: Undefined variable $portfolios
+[Method: GET, Route: Beranda]
+in APPPATH\Views\users\beranda\index.php on line 313.
+ 1 APPPATH\Views\users\beranda\index.php(313): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $portfolios', 'C:\\xampp\\htdocs\\lndgpgms\\app\\Views\\users\\beranda\\index.php', 313)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\lndgpgms\\app\\Views\\users\\beranda\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('users/beranda/index', [], true)
+ 5 APPPATH\Controllers\BerandaController.php(12): view('users/beranda/index')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BerandaController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BerandaController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\lndgpgms\\public\\index.php')
+CRITICAL - 2024-07-09 08:38:31 --> ErrorException: Undefined variable $portfolios
+[Method: GET, Route: Beranda]
+in APPPATH\Views\users\beranda\index.php on line 313.
+ 1 APPPATH\Views\users\beranda\index.php(313): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $portfolios', 'C:\\xampp\\htdocs\\lndgpgms\\app\\Views\\users\\beranda\\index.php', 313)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\lndgpgms\\app\\Views\\users\\beranda\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('users/beranda/index', [], true)
+ 5 APPPATH\Controllers\BerandaController.php(12): view('users/beranda/index')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BerandaController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BerandaController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\lndgpgms\\public\\index.php')
+CRITICAL - 2024-07-09 08:38:31 --> ErrorException: Undefined variable $portfolios
+[Method: GET, Route: Beranda]
+in APPPATH\Views\users\beranda\index.php on line 313.
+ 1 APPPATH\Views\users\beranda\index.php(313): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $portfolios', 'C:\\xampp\\htdocs\\lndgpgms\\app\\Views\\users\\beranda\\index.php', 313)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\lndgpgms\\app\\Views\\users\\beranda\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('users/beranda/index', [], true)
+ 5 APPPATH\Controllers\BerandaController.php(12): view('users/beranda/index')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BerandaController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BerandaController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\lndgpgms\\public\\index.php')
+CRITICAL - 2024-07-09 08:38:31 --> ErrorException: Undefined variable $portfolios
+[Method: GET, Route: Beranda]
+in APPPATH\Views\users\beranda\index.php on line 313.
+ 1 APPPATH\Views\users\beranda\index.php(313): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $portfolios', 'C:\\xampp\\htdocs\\lndgpgms\\app\\Views\\users\\beranda\\index.php', 313)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\lndgpgms\\app\\Views\\users\\beranda\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('users/beranda/index', [], true)
+ 5 APPPATH\Controllers\BerandaController.php(12): view('users/beranda/index')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BerandaController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BerandaController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\lndgpgms\\public\\index.php')
+CRITICAL - 2024-07-09 08:38:31 --> ErrorException: Undefined variable $portfolios
+[Method: GET, Route: Beranda]
+in APPPATH\Views\users\beranda\index.php on line 313.
+ 1 APPPATH\Views\users\beranda\index.php(313): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $portfolios', 'C:\\xampp\\htdocs\\lndgpgms\\app\\Views\\users\\beranda\\index.php', 313)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\lndgpgms\\app\\Views\\users\\beranda\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('users/beranda/index', [], true)
+ 5 APPPATH\Controllers\BerandaController.php(12): view('users/beranda/index')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BerandaController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BerandaController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\lndgpgms\\public\\index.php')
+CRITICAL - 2024-07-09 08:38:31 --> ErrorException: Undefined variable $portfolios
+[Method: GET, Route: Beranda]
+in APPPATH\Views\users\beranda\index.php on line 313.
+ 1 APPPATH\Views\users\beranda\index.php(313): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $portfolios', 'C:\\xampp\\htdocs\\lndgpgms\\app\\Views\\users\\beranda\\index.php', 313)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\lndgpgms\\app\\Views\\users\\beranda\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('users/beranda/index', [], true)
+ 5 APPPATH\Controllers\BerandaController.php(12): view('users/beranda/index')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BerandaController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BerandaController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\lndgpgms\\public\\index.php')
+CRITICAL - 2024-07-09 08:41:52 --> ErrorException: Undefined variable $portfolios
+[Method: GET, Route: Beranda]
+in APPPATH\Views\users\beranda\index.php on line 313.
+ 1 APPPATH\Views\users\beranda\index.php(313): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $portfolios', 'C:\\xampp\\htdocs\\lndgpgms\\app\\Views\\users\\beranda\\index.php', 313)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\lndgpgms\\app\\Views\\users\\beranda\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('users/beranda/index', [], true)
+ 5 APPPATH\Controllers\BerandaController.php(12): view('users/beranda/index')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BerandaController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BerandaController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\lndgpgms\\public\\index.php')
+CRITICAL - 2024-07-09 08:41:52 --> ErrorException: Undefined variable $portfolios
+[Method: GET, Route: Beranda]
+in APPPATH\Views\users\beranda\index.php on line 313.
+ 1 APPPATH\Views\users\beranda\index.php(313): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $portfolios', 'C:\\xampp\\htdocs\\lndgpgms\\app\\Views\\users\\beranda\\index.php', 313)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\lndgpgms\\app\\Views\\users\\beranda\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('users/beranda/index', [], true)
+ 5 APPPATH\Controllers\BerandaController.php(12): view('users/beranda/index')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BerandaController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BerandaController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\lndgpgms\\public\\index.php')
+CRITICAL - 2024-07-09 08:41:52 --> ErrorException: Undefined variable $portfolios
+[Method: GET, Route: Beranda]
+in APPPATH\Views\users\beranda\index.php on line 313.
+ 1 APPPATH\Views\users\beranda\index.php(313): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $portfolios', 'C:\\xampp\\htdocs\\lndgpgms\\app\\Views\\users\\beranda\\index.php', 313)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\lndgpgms\\app\\Views\\users\\beranda\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('users/beranda/index', [], true)
+ 5 APPPATH\Controllers\BerandaController.php(12): view('users/beranda/index')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BerandaController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BerandaController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\lndgpgms\\public\\index.php')
+CRITICAL - 2024-07-09 08:41:52 --> ErrorException: Undefined variable $portfolios
+[Method: GET, Route: Beranda]
+in APPPATH\Views\users\beranda\index.php on line 313.
+ 1 APPPATH\Views\users\beranda\index.php(313): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $portfolios', 'C:\\xampp\\htdocs\\lndgpgms\\app\\Views\\users\\beranda\\index.php', 313)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\lndgpgms\\app\\Views\\users\\beranda\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('users/beranda/index', [], true)
+ 5 APPPATH\Controllers\BerandaController.php(12): view('users/beranda/index')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BerandaController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BerandaController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\lndgpgms\\public\\index.php')
+CRITICAL - 2024-07-09 08:41:53 --> ErrorException: Undefined variable $portfolios
+[Method: GET, Route: Beranda]
+in APPPATH\Views\users\beranda\index.php on line 313.
+ 1 APPPATH\Views\users\beranda\index.php(313): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $portfolios', 'C:\\xampp\\htdocs\\lndgpgms\\app\\Views\\users\\beranda\\index.php', 313)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\lndgpgms\\app\\Views\\users\\beranda\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('users/beranda/index', [], true)
+ 5 APPPATH\Controllers\BerandaController.php(12): view('users/beranda/index')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BerandaController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BerandaController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\lndgpgms\\public\\index.php')
+CRITICAL - 2024-07-09 08:46:02 --> ParseError: syntax error, unexpected end of file, expecting "elseif" or "else" or "endif"
+[Method: GET, Route: Beranda]
+in APPPATH\Views\users\beranda\index.php on line 490.
+ 1 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('users/beranda/index', [], true)
+ 3 APPPATH\Controllers\BerandaController.php(12): view('users/beranda/index')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BerandaController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BerandaController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\lndgpgms\\public\\index.php')
+CRITICAL - 2024-07-09 08:46:34 --> ErrorException: Undefined variable $portfolios
+[Method: GET, Route: Beranda]
+in APPPATH\Views\users\beranda\index.php on line 313.
+ 1 APPPATH\Views\users\beranda\index.php(313): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $portfolios', 'C:\\xampp\\htdocs\\lndgpgms\\app\\Views\\users\\beranda\\index.php', 313)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\lndgpgms\\app\\Views\\users\\beranda\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('users/beranda/index', [], true)
+ 5 APPPATH\Controllers\BerandaController.php(12): view('users/beranda/index')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BerandaController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BerandaController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\lndgpgms\\public\\index.php')
+CRITICAL - 2024-07-09 08:46:55 --> ErrorException: Undefined variable $portfolios
+[Method: GET, Route: Beranda]
+in APPPATH\Views\users\beranda\index.php on line 313.
+ 1 APPPATH\Views\users\beranda\index.php(313): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $portfolios', 'C:\\xampp\\htdocs\\lndgpgms\\app\\Views\\users\\beranda\\index.php', 313)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\lndgpgms\\app\\Views\\users\\beranda\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('users/beranda/index', [], true)
+ 5 APPPATH\Controllers\BerandaController.php(12): view('users/beranda/index')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BerandaController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BerandaController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\lndgpgms\\public\\index.php')
+INFO - 2024-07-09 08:49:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-09 08:49:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-09 08:49:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-09 08:49:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-09 08:49:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-09 09:56:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
