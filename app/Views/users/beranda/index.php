@@ -73,13 +73,13 @@
     <!-- Hero Section -->
     <section id="hero" class="hero section dark-background">
 
-  <img src="<?= base_url('assets'); ?>//img/menu.jpg" alt="" data-aos="fade-in">
+    <img src="assets/img/menu.jpg" alt="" data-aos="fade-in">
 
   <div class="container" data-aos="fade-up" data-aos-delay="100">
     <div class="row justify-content-start">
       <div class="col-lg-8">
         <h2>Nyet Nyet</h2>
-        <a href="https://wa.me/087839995711?text=Halo, saya ingin memesan" class="btn-get-started">Order Sekarang</a>
+        <a href="https://wa.me/62+87839995711?text=Halo, Halo Saya Ingin Memesan" class="btn-get-started">Order Sekarang</a>
       </div>
     </div>
   </div>
@@ -109,10 +109,10 @@
                     Nikmati pengalaman kuliner terbaik dengan hidangan istimewa dari berbagai belahan dunia.
                 </p>
                 <ul class="list-unstyled mb-0">
-                    <li class="mb-3"><i class="bi bi-check-circle-fill text-danger"></i> <span class="ms-2">Menu spesial setiap hari.</span></li>
+                    <li class="mb-3"><i class="bi bi-check-circle-fill text-danger"></i> <span class="ms-2">Menu Fresh setiap hari.</span></li>
                     <li class="mb-3"><i class="bi bi-check-circle-fill text-danger"></i> <span class="ms-2">Bahan-bahan berkualitas terbaik.</span></li>
                     <li class="mb-3"><i class="bi bi-check-circle-fill text-danger"></i> <span class="ms-2">Suasana nyaman dan elegan untuk keluarga dan teman.</span></li>
-                    <li><i class="bi bi-cash text-danger"></i> <span class="ms-2">Harga Paket Menu : Rp 15.000,- per orang.</span></li>
+                    <li><i class="bi bi-cash text-danger"></i> <span class="ms-2">Harga Mulai dari : Rp 7.000 - 15.000, per Porsi.</span></li>
                 </ul>
             </div>
         </div>
@@ -134,13 +134,13 @@
       </div>
       <div class="paket-item">
       <link href="<?= base_url('assets'); ?>//css/paket.css" rel="stylesheet">
-        <h3>Paket Spesial 1</h3>
-        <p class="paket-description">Paket ini mencakup hidangan utama dan minuman.</p>
+        <h3>Paket Spesial Ayam</h3>
+        <p class="paket-description">Goreng/Bakar</p>
         <div class="paket-details">
             <p><strong>Harga:</strong> Rp 15.000,- per paket</p>
             <p><strong>Isi Paket:</strong></p>
             <ul>
-                <li>Hidangan utama: Nasi + Ayam + Tempe + Kremes + Lalap + Sambal</li>
+                <li>Hidangan utama: Nasi + Ayam + Tempe + Kremes + Lalap + Sambal + Terong</li>
                 <li>Minuman: Es Teh</li>
             </ul>
         </div>
