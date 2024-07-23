@@ -1,0 +1,599 @@
+INFO - 2024-07-23 04:27:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-23 04:28:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-23 04:28:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-23 04:28:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-23 04:28:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-23 04:32:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-23 04:32:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-23 04:33:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-23 04:34:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-23 04:35:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-23 04:35:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-23 04:35:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-23 04:35:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-23 04:35:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-23 04:35:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-23 04:35:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-23 04:35:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-23 04:35:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-23 04:37:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-23 04:37:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-23 04:37:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-23 04:37:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-23 04:37:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-23 04:37:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-23 04:37:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-23 04:37:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-23 04:37:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-23 04:37:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-23 04:39:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-23 04:39:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-23 04:42:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-23 04:42:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-23 04:42:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-23 04:42:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-23 04:42:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-23 04:42:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-23 04:42:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-23 04:42:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-23 04:42:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-23 04:42:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-23 04:42:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-23 04:43:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-23 04:43:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-23 04:43:26 --> CodeIgniter\Validation\Exceptions\ValidationException: "portfolio" is not a validation rules group.
+[Method: POST, Route: admin/portfolio/update/20]
+in SYSTEMPATH\Validation\Validation.php on line 751.
+ 1 SYSTEMPATH\Validation\Validation.php(751): CodeIgniter\Validation\Exceptions\ValidationException::forGroupNotFound('portfolio')
+ 2 SYSTEMPATH\Validation\Validation.php(148): CodeIgniter\Validation\Validation->loadRuleGroup('portfolio')
+ 3 APPPATH\Controllers\AdminPortfolioController.php(73): CodeIgniter\Validation\Validation->run([...], 'portfolio')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AdminPortfolioController->update('20')
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminPortfolioController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\lndgpgms\\NyetNyet\\public\\index.php')
+INFO - 2024-07-23 04:43:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-23 04:43:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-23 04:43:32 --> CodeIgniter\Validation\Exceptions\ValidationException: "portfolio" is not a validation rules group.
+[Method: POST, Route: admin/portfolio/update/20]
+in SYSTEMPATH\Validation\Validation.php on line 751.
+ 1 SYSTEMPATH\Validation\Validation.php(751): CodeIgniter\Validation\Exceptions\ValidationException::forGroupNotFound('portfolio')
+ 2 SYSTEMPATH\Validation\Validation.php(148): CodeIgniter\Validation\Validation->loadRuleGroup('portfolio')
+ 3 APPPATH\Controllers\AdminPortfolioController.php(73): CodeIgniter\Validation\Validation->run([...], 'portfolio')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AdminPortfolioController->update('20')
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminPortfolioController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\lndgpgms\\NyetNyet\\public\\index.php')
+INFO - 2024-07-23 04:43:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-23 04:43:45 --> CodeIgniter\Validation\Exceptions\ValidationException: "portfolio" is not a validation rules group.
+[Method: POST, Route: admin/portfolio/update/20]
+in SYSTEMPATH\Validation\Validation.php on line 751.
+ 1 SYSTEMPATH\Validation\Validation.php(751): CodeIgniter\Validation\Exceptions\ValidationException::forGroupNotFound('portfolio')
+ 2 SYSTEMPATH\Validation\Validation.php(148): CodeIgniter\Validation\Validation->loadRuleGroup('portfolio')
+ 3 APPPATH\Controllers\AdminPortfolioController.php(73): CodeIgniter\Validation\Validation->run([...], 'portfolio')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AdminPortfolioController->update('20')
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminPortfolioController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\lndgpgms\\NyetNyet\\public\\index.php')
+INFO - 2024-07-23 04:43:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-23 04:43:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-23 04:43:49 --> CodeIgniter\Validation\Exceptions\ValidationException: "portfolio" is not a validation rules group.
+[Method: POST, Route: admin/portfolio/update/20]
+in SYSTEMPATH\Validation\Validation.php on line 751.
+ 1 SYSTEMPATH\Validation\Validation.php(751): CodeIgniter\Validation\Exceptions\ValidationException::forGroupNotFound('portfolio')
+ 2 SYSTEMPATH\Validation\Validation.php(148): CodeIgniter\Validation\Validation->loadRuleGroup('portfolio')
+ 3 APPPATH\Controllers\AdminPortfolioController.php(73): CodeIgniter\Validation\Validation->run([...], 'portfolio')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AdminPortfolioController->update('20')
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminPortfolioController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\lndgpgms\\NyetNyet\\public\\index.php')
+INFO - 2024-07-23 04:44:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-23 04:44:15 --> CodeIgniter\Validation\Exceptions\ValidationException: "portfolio" is not a validation rules group.
+[Method: POST, Route: admin/portfolio/update/20]
+in SYSTEMPATH\Validation\Validation.php on line 751.
+ 1 SYSTEMPATH\Validation\Validation.php(751): CodeIgniter\Validation\Exceptions\ValidationException::forGroupNotFound('portfolio')
+ 2 SYSTEMPATH\Validation\Validation.php(148): CodeIgniter\Validation\Validation->loadRuleGroup('portfolio')
+ 3 APPPATH\Controllers\AdminPortfolioController.php(73): CodeIgniter\Validation\Validation->run([...], 'portfolio')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AdminPortfolioController->update('20')
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminPortfolioController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\lndgpgms\\NyetNyet\\public\\index.php')
+INFO - 2024-07-23 04:44:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-23 04:44:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-23 04:44:17 --> CodeIgniter\Validation\Exceptions\ValidationException: "portfolio" is not a validation rules group.
+[Method: POST, Route: admin/portfolio/update/20]
+in SYSTEMPATH\Validation\Validation.php on line 751.
+ 1 SYSTEMPATH\Validation\Validation.php(751): CodeIgniter\Validation\Exceptions\ValidationException::forGroupNotFound('portfolio')
+ 2 SYSTEMPATH\Validation\Validation.php(148): CodeIgniter\Validation\Validation->loadRuleGroup('portfolio')
+ 3 APPPATH\Controllers\AdminPortfolioController.php(73): CodeIgniter\Validation\Validation->run([...], 'portfolio')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AdminPortfolioController->update('20')
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminPortfolioController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\lndgpgms\\NyetNyet\\public\\index.php')
+INFO - 2024-07-23 04:44:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-23 04:44:49 --> CodeIgniter\Validation\Exceptions\ValidationException: "portfolio" is not a validation rules group.
+[Method: POST, Route: admin/portfolio/update/20]
+in SYSTEMPATH\Validation\Validation.php on line 751.
+ 1 SYSTEMPATH\Validation\Validation.php(751): CodeIgniter\Validation\Exceptions\ValidationException::forGroupNotFound('portfolio')
+ 2 SYSTEMPATH\Validation\Validation.php(148): CodeIgniter\Validation\Validation->loadRuleGroup('portfolio')
+ 3 APPPATH\Controllers\AdminPortfolioController.php(73): CodeIgniter\Validation\Validation->run([...], 'portfolio')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AdminPortfolioController->update('20')
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminPortfolioController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\lndgpgms\\NyetNyet\\public\\index.php')
+INFO - 2024-07-23 04:46:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-23 04:46:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-23 04:46:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-23 04:46:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-23 04:46:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-23 04:46:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-23 04:46:36 --> CodeIgniter\Validation\Exceptions\ValidationException: "portfolio" is not a validation rules group.
+[Method: POST, Route: admin/portfolio/update/20]
+in SYSTEMPATH\Validation\Validation.php on line 751.
+ 1 SYSTEMPATH\Validation\Validation.php(751): CodeIgniter\Validation\Exceptions\ValidationException::forGroupNotFound('portfolio')
+ 2 SYSTEMPATH\Validation\Validation.php(148): CodeIgniter\Validation\Validation->loadRuleGroup('portfolio')
+ 3 APPPATH\Controllers\AdminPortfolioController.php(73): CodeIgniter\Validation\Validation->run([...], 'portfolio')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AdminPortfolioController->update('20')
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminPortfolioController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\lndgpgms\\NyetNyet\\public\\index.php')
+INFO - 2024-07-23 04:47:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-23 04:47:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-23 04:47:08 --> CodeIgniter\Validation\Exceptions\ValidationException: "portfolio" is not a validation rules group.
+[Method: POST, Route: admin/portfolio/update/20]
+in SYSTEMPATH\Validation\Validation.php on line 751.
+ 1 SYSTEMPATH\Validation\Validation.php(751): CodeIgniter\Validation\Exceptions\ValidationException::forGroupNotFound('portfolio')
+ 2 SYSTEMPATH\Validation\Validation.php(148): CodeIgniter\Validation\Validation->loadRuleGroup('portfolio')
+ 3 APPPATH\Controllers\AdminPortfolioController.php(73): CodeIgniter\Validation\Validation->run([...], 'portfolio')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AdminPortfolioController->update('20')
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminPortfolioController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\lndgpgms\\NyetNyet\\public\\index.php')
+INFO - 2024-07-23 04:47:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-23 04:47:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-23 04:47:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-23 04:47:54 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "admin/menu.php"
+[Method: GET, Route: admin/menu]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/menu.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/menu', [], true)
+ 3 APPPATH\Controllers\AdminPortfolioController.php(19): view('admin/menu', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AdminPortfolioController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminPortfolioController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\lndgpgms\\NyetNyet\\public\\index.php')
+INFO - 2024-07-23 04:50:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-23 04:50:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-23 04:50:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-23 04:50:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-23 04:50:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-23 04:50:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-23 04:50:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-23 04:50:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-23 04:50:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-23 04:50:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-23 04:50:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-23 04:50:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-23 04:50:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-23 04:50:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-23 04:51:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-23 04:51:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-23 04:51:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-23 04:52:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-23 04:52:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-23 04:52:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-23 04:52:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-23 04:52:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-23 04:52:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-23 04:52:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-23 04:54:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-23 04:54:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-23 04:54:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-23 04:54:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-23 04:55:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-23 04:55:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-23 04:55:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-23 04:55:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-23 04:55:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-23 04:55:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-23 04:55:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-23 04:55:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-23 04:55:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-23 04:55:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-23 04:55:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-23 04:56:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-23 04:56:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-23 04:56:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-23 04:56:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-23 04:56:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-23 04:56:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-23 04:56:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-23 04:56:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-23 04:56:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-23 05:05:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-23 05:05:05 --> ErrorException: Undefined variable $title
+[Method: GET, Route: admin]
+in APPPATH\Views\admin.php on line 228.
+ 1 APPPATH\Views\admin.php(228): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'C:\\xampp\\htdocs\\lndgpgms\\NyetNyet\\app\\Views\\admin.php', 228)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\lndgpgms\\NyetNyet\\app\\Views\\admin.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin', [], true)
+ 5 APPPATH\Controllers\AdminController.php(14): view('admin')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AdminController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\lndgpgms\\NyetNyet\\public\\index.php')
+INFO - 2024-07-23 05:05:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-23 05:05:06 --> ErrorException: Undefined variable $title
+[Method: GET, Route: admin]
+in APPPATH\Views\admin.php on line 228.
+ 1 APPPATH\Views\admin.php(228): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'C:\\xampp\\htdocs\\lndgpgms\\NyetNyet\\app\\Views\\admin.php', 228)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\lndgpgms\\NyetNyet\\app\\Views\\admin.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin', [], true)
+ 5 APPPATH\Controllers\AdminController.php(14): view('admin')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AdminController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\lndgpgms\\NyetNyet\\public\\index.php')
+INFO - 2024-07-23 05:06:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-23 05:06:17 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: admin/edit]
+in APPPATH\Views\restaurant\edit.php on line 29.
+ 1 APPPATH\Views\restaurant\edit.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\lndgpgms\\NyetNyet\\app\\Views\\restaurant\\edit.php', 29)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\lndgpgms\\NyetNyet\\app\\Views\\restaurant\\edit.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('restaurant/edit', [], true)
+ 5 APPPATH\Controllers\RestaurantController.php(20): view('restaurant/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\RestaurantController->edit()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RestaurantController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\lndgpgms\\NyetNyet\\public\\index.php')
+INFO - 2024-07-23 05:06:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-23 05:06:19 --> ErrorException: Undefined variable $title
+[Method: GET, Route: admin]
+in APPPATH\Views\admin.php on line 228.
+ 1 APPPATH\Views\admin.php(228): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'C:\\xampp\\htdocs\\lndgpgms\\NyetNyet\\app\\Views\\admin.php', 228)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\lndgpgms\\NyetNyet\\app\\Views\\admin.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin', [], true)
+ 5 APPPATH\Controllers\AdminController.php(14): view('admin')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AdminController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\lndgpgms\\NyetNyet\\public\\index.php')
+INFO - 2024-07-23 05:06:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-23 05:06:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-23 05:06:21 --> ErrorException: Undefined variable $title
+[Method: GET, Route: admin]
+in APPPATH\Views\admin.php on line 228.
+ 1 APPPATH\Views\admin.php(228): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'C:\\xampp\\htdocs\\lndgpgms\\NyetNyet\\app\\Views\\admin.php', 228)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\lndgpgms\\NyetNyet\\app\\Views\\admin.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin', [], true)
+ 5 APPPATH\Controllers\AdminController.php(14): view('admin')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AdminController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\lndgpgms\\NyetNyet\\public\\index.php')
+INFO - 2024-07-23 05:06:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-23 05:06:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-23 05:07:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-23 05:07:07 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: admin/edit]
+in APPPATH\Views\restaurant\edit.php on line 29.
+ 1 APPPATH\Views\restaurant\edit.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\lndgpgms\\NyetNyet\\app\\Views\\restaurant\\edit.php', 29)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\lndgpgms\\NyetNyet\\app\\Views\\restaurant\\edit.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('restaurant/edit', [], true)
+ 5 APPPATH\Controllers\RestaurantController.php(20): view('restaurant/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\RestaurantController->edit()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RestaurantController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\lndgpgms\\NyetNyet\\public\\index.php')
+INFO - 2024-07-23 05:07:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-23 05:08:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-23 05:08:11 --> ErrorException: Undefined variable $title
+[Method: GET, Route: admin]
+in APPPATH\Views\admin.php on line 245.
+ 1 APPPATH\Views\admin.php(245): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'C:\\xampp\\htdocs\\lndgpgms\\NyetNyet\\app\\Views\\admin.php', 245)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\lndgpgms\\NyetNyet\\app\\Views\\admin.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin', [], true)
+ 5 APPPATH\Controllers\AdminController.php(14): view('admin')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AdminController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\lndgpgms\\NyetNyet\\public\\index.php')
+INFO - 2024-07-23 05:08:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-23 05:10:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-23 05:14:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-23 05:17:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-23 05:18:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-23 05:19:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-23 05:20:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-23 05:20:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-23 05:20:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-23 05:29:52 --> ErrorException: Undefined variable $contacts
+[Method: GET, Route: Beranda]
+in APPPATH\Views\users\beranda\index.php on line 404.
+ 1 APPPATH\Views\users\beranda\index.php(404): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $contacts', 'C:\\xampp\\htdocs\\lndgpgms\\NyetNyet\\app\\Views\\users\\beranda\\index.php', 404)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\lndgpgms\\NyetNyet\\app\\Views\\users\\beranda\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('users/beranda/index', [], true)
+ 5 APPPATH\Controllers\BerandaController.php(17): view('users/beranda/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BerandaController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BerandaController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\lndgpgms\\NyetNyet\\public\\index.php')
+CRITICAL - 2024-07-23 05:30:23 --> ErrorException: Undefined variable $contacts
+[Method: GET, Route: Beranda]
+in APPPATH\Views\users\beranda\index.php on line 404.
+ 1 APPPATH\Views\users\beranda\index.php(404): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $contacts', 'C:\\xampp\\htdocs\\lndgpgms\\NyetNyet\\app\\Views\\users\\beranda\\index.php', 404)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\lndgpgms\\NyetNyet\\app\\Views\\users\\beranda\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('users/beranda/index', [], true)
+ 5 APPPATH\Controllers\BerandaController.php(17): view('users/beranda/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BerandaController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BerandaController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\lndgpgms\\NyetNyet\\public\\index.php')
+CRITICAL - 2024-07-23 05:30:24 --> ErrorException: Undefined variable $contacts
+[Method: GET, Route: Beranda]
+in APPPATH\Views\users\beranda\index.php on line 404.
+ 1 APPPATH\Views\users\beranda\index.php(404): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $contacts', 'C:\\xampp\\htdocs\\lndgpgms\\NyetNyet\\app\\Views\\users\\beranda\\index.php', 404)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\lndgpgms\\NyetNyet\\app\\Views\\users\\beranda\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('users/beranda/index', [], true)
+ 5 APPPATH\Controllers\BerandaController.php(17): view('users/beranda/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BerandaController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BerandaController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\lndgpgms\\NyetNyet\\public\\index.php')
+CRITICAL - 2024-07-23 05:30:24 --> ErrorException: Undefined variable $contacts
+[Method: GET, Route: Beranda]
+in APPPATH\Views\users\beranda\index.php on line 404.
+ 1 APPPATH\Views\users\beranda\index.php(404): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $contacts', 'C:\\xampp\\htdocs\\lndgpgms\\NyetNyet\\app\\Views\\users\\beranda\\index.php', 404)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\lndgpgms\\NyetNyet\\app\\Views\\users\\beranda\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('users/beranda/index', [], true)
+ 5 APPPATH\Controllers\BerandaController.php(17): view('users/beranda/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BerandaController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BerandaController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\lndgpgms\\NyetNyet\\public\\index.php')
+CRITICAL - 2024-07-23 05:30:25 --> ErrorException: Undefined variable $contacts
+[Method: GET, Route: Beranda]
+in APPPATH\Views\users\beranda\index.php on line 404.
+ 1 APPPATH\Views\users\beranda\index.php(404): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $contacts', 'C:\\xampp\\htdocs\\lndgpgms\\NyetNyet\\app\\Views\\users\\beranda\\index.php', 404)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\lndgpgms\\NyetNyet\\app\\Views\\users\\beranda\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('users/beranda/index', [], true)
+ 5 APPPATH\Controllers\BerandaController.php(17): view('users/beranda/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BerandaController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BerandaController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\lndgpgms\\NyetNyet\\public\\index.php')
+CRITICAL - 2024-07-23 05:30:25 --> ErrorException: Undefined variable $contacts
+[Method: GET, Route: Beranda]
+in APPPATH\Views\users\beranda\index.php on line 404.
+ 1 APPPATH\Views\users\beranda\index.php(404): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $contacts', 'C:\\xampp\\htdocs\\lndgpgms\\NyetNyet\\app\\Views\\users\\beranda\\index.php', 404)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\lndgpgms\\NyetNyet\\app\\Views\\users\\beranda\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('users/beranda/index', [], true)
+ 5 APPPATH\Controllers\BerandaController.php(17): view('users/beranda/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BerandaController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BerandaController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\lndgpgms\\NyetNyet\\public\\index.php')
+CRITICAL - 2024-07-23 05:30:25 --> ErrorException: Undefined variable $contacts
+[Method: GET, Route: Beranda]
+in APPPATH\Views\users\beranda\index.php on line 404.
+ 1 APPPATH\Views\users\beranda\index.php(404): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $contacts', 'C:\\xampp\\htdocs\\lndgpgms\\NyetNyet\\app\\Views\\users\\beranda\\index.php', 404)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\lndgpgms\\NyetNyet\\app\\Views\\users\\beranda\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('users/beranda/index', [], true)
+ 5 APPPATH\Controllers\BerandaController.php(17): view('users/beranda/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BerandaController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BerandaController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\lndgpgms\\NyetNyet\\public\\index.php')
+CRITICAL - 2024-07-23 05:30:25 --> ErrorException: Undefined variable $contacts
+[Method: GET, Route: Beranda]
+in APPPATH\Views\users\beranda\index.php on line 404.
+ 1 APPPATH\Views\users\beranda\index.php(404): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $contacts', 'C:\\xampp\\htdocs\\lndgpgms\\NyetNyet\\app\\Views\\users\\beranda\\index.php', 404)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\lndgpgms\\NyetNyet\\app\\Views\\users\\beranda\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('users/beranda/index', [], true)
+ 5 APPPATH\Controllers\BerandaController.php(17): view('users/beranda/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BerandaController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BerandaController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\lndgpgms\\NyetNyet\\public\\index.php')
+CRITICAL - 2024-07-23 05:30:25 --> ErrorException: Undefined variable $contacts
+[Method: GET, Route: Beranda]
+in APPPATH\Views\users\beranda\index.php on line 404.
+ 1 APPPATH\Views\users\beranda\index.php(404): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $contacts', 'C:\\xampp\\htdocs\\lndgpgms\\NyetNyet\\app\\Views\\users\\beranda\\index.php', 404)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\lndgpgms\\NyetNyet\\app\\Views\\users\\beranda\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('users/beranda/index', [], true)
+ 5 APPPATH\Controllers\BerandaController.php(17): view('users/beranda/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BerandaController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BerandaController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\lndgpgms\\NyetNyet\\public\\index.php')
+INFO - 2024-07-23 05:38:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-23 05:38:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-23 05:39:33 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "contacts/index.php"
+[Method: GET, Route: contacts]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('contacts/index.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('contacts/index', [], true)
+ 3 APPPATH\Controllers\ContactController.php(15): view('contacts/index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ContactController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContactController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\lndgpgms\\NyetNyet\\public\\index.php')
+INFO - 2024-07-23 05:39:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-23 05:40:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-23 05:44:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-23 05:44:15 --> ErrorException: Undefined variable $branding
+[Method: GET, Route: admin]
+in APPPATH\Views\admin.php on line 275.
+ 1 APPPATH\Views\admin.php(275): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $branding', 'C:\\xampp\\htdocs\\lndgpgms\\NyetNyet\\app\\Views\\admin.php', 275)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\lndgpgms\\NyetNyet\\app\\Views\\admin.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin', [], true)
+ 5 APPPATH\Controllers\AdminController.php(14): view('admin')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AdminController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\lndgpgms\\NyetNyet\\public\\index.php')
+INFO - 2024-07-23 05:44:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-23 05:44:47 --> ErrorException: Undefined variable $branding
+[Method: GET, Route: admin]
+in APPPATH\Views\admin.php on line 249.
+ 1 APPPATH\Views\admin.php(249): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $branding', 'C:\\xampp\\htdocs\\lndgpgms\\NyetNyet\\app\\Views\\admin.php', 249)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\lndgpgms\\NyetNyet\\app\\Views\\admin.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin', [], true)
+ 5 APPPATH\Controllers\AdminController.php(14): view('admin')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AdminController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\lndgpgms\\NyetNyet\\public\\index.php')
+INFO - 2024-07-23 05:44:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-23 05:44:48 --> ErrorException: Undefined variable $branding
+[Method: GET, Route: admin]
+in APPPATH\Views\admin.php on line 249.
+ 1 APPPATH\Views\admin.php(249): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $branding', 'C:\\xampp\\htdocs\\lndgpgms\\NyetNyet\\app\\Views\\admin.php', 249)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\lndgpgms\\NyetNyet\\app\\Views\\admin.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin', [], true)
+ 5 APPPATH\Controllers\AdminController.php(14): view('admin')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AdminController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\lndgpgms\\NyetNyet\\public\\index.php')
+INFO - 2024-07-23 05:44:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-23 05:44:48 --> ErrorException: Undefined variable $branding
+[Method: GET, Route: admin]
+in APPPATH\Views\admin.php on line 249.
+ 1 APPPATH\Views\admin.php(249): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $branding', 'C:\\xampp\\htdocs\\lndgpgms\\NyetNyet\\app\\Views\\admin.php', 249)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\lndgpgms\\NyetNyet\\app\\Views\\admin.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin', [], true)
+ 5 APPPATH\Controllers\AdminController.php(14): view('admin')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AdminController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\lndgpgms\\NyetNyet\\public\\index.php')
+INFO - 2024-07-23 05:44:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-23 05:44:48 --> ErrorException: Undefined variable $branding
+[Method: GET, Route: admin]
+in APPPATH\Views\admin.php on line 249.
+ 1 APPPATH\Views\admin.php(249): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $branding', 'C:\\xampp\\htdocs\\lndgpgms\\NyetNyet\\app\\Views\\admin.php', 249)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\lndgpgms\\NyetNyet\\app\\Views\\admin.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin', [], true)
+ 5 APPPATH\Controllers\AdminController.php(14): view('admin')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AdminController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\lndgpgms\\NyetNyet\\public\\index.php')
+INFO - 2024-07-23 05:45:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

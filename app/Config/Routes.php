@@ -19,7 +19,7 @@ $routes->get('/admin', 'Admin::index');
 $routes->get('/admin/users', 'Admin::users'); // Contoh rute lain untuk admin users
 
 // app/Config/Routes.php
-$routes->get('/admin/menu', 'AdminPortfolioController::index', ['filter' => 'auth']);
+$routes->get('/admin/portfolio', 'AdminPortfolioController::index', ['filter' => 'auth']);
 $routes->get('/admin/portfolio/create', 'AdminPortfolioController::create', ['filter' => 'auth']);
 $routes->post('/admin/portfolio/store', 'AdminPortfolioController::store', ['filter' => 'auth']);
 $routes->get('/admin/portfolio/edit/(:num)', 'AdminPortfolioController::edit/$1', ['filter' => 'auth']);
@@ -30,6 +30,11 @@ $routes->get('/admin/portfolio/delete/(:num)', 'AdminPortfolioController::delete
 $routes->get('contact', 'Email::index');
 $routes->post('contact/send', 'Email::send');
 
+
+//resto
+$routes->get('admin', 'RestaurantController::index');
+$routes->get('admin/edit', 'RestaurantController::edit');
+$routes->post('admin/update', 'RestaurantController::update');
 
 
 

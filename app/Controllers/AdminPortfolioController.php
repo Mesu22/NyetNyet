@@ -9,7 +9,7 @@ class AdminPortfolioController extends Controller
 {
     public function __construct()
     {
-        helper(['form', 'url']);
+        helper(['form', 'url', 'filesystem']);
     }
 
     public function index()
@@ -53,7 +53,7 @@ class AdminPortfolioController extends Controller
         ];
 
         $model->save($data);
-        return redirect()->to('/admin/portfolio')->with('success', 'Portfolio item added successfully');
+        return redirect()->to('/admin/portfolio')->with('success', 'Menu added successfully');
     }
 
     public function edit($id)
@@ -88,19 +88,19 @@ class AdminPortfolioController extends Controller
         $image = $this->request->getFile('image');
         if ($image->isValid() && !$image->hasMoved()) {
             $imageName = $image->getRandomName();
-            $image->move(ROOTPATH . 'public/assets/img/Menu', $imageName);
+            $image->move('assets/img/Menu', $imageName);
 
             // Hapus gambar lama
             $portfolio = $model->find($id);
-            if (file_exists(ROOTPATH . 'public/assets/img/Menu' . $portfolio['image'])) {
-                unlink(ROOTPATH . 'public/assets/img/Menu' . $portfolio['image']);
+            if (file_exists(ROOTPATH . 'public/assets/img/Menu/' . $portfolio['image'])) {
+                unlink(ROOTPATH . 'public/assets/img/Menu/' . $portfolio['image']);
             }
 
             $data['image'] = $imageName;
         }
 
         $model->update($id, $data);
-        return redirect()->to('/admin/portfolio')->with('success', 'Portfolio item updated successfully');
+        return redirect()->to('/admin/portfolio')->with('success', 'Menu updated successfully');
     }
 
     public function delete($id)
@@ -108,11 +108,11 @@ class AdminPortfolioController extends Controller
         $model = new PortfolioModel();
         $portfolio = $model->find($id);
 
-        if (file_exists(ROOTPATH . 'public/assets/img/Menu' . $portfolio['image'])) {
-            unlink(ROOTPATH . 'public/assets/img/Menu' . $portfolio['image']);
+        if (file_exists(ROOTPATH . 'public/assets/img/Menu/' . $portfolio['image'])) {
+            unlink(ROOTPATH . 'public/assets/img/Menu/' . $portfolio['image']);
         }
 
         $model->delete($id);
-        return redirect()->to('/admin/portfolio')->with('success', 'Portfolio item deleted successfully');
+        return redirect()->to('/admin/portfolio')->with('success', 'Menu deleted successfully');
     }
 }

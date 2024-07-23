@@ -29,6 +29,14 @@
             border-radius: 8px;
         }
 
+        .sidebar {
+            background: #1d2d50;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
         h1 {
             font-size: 24px;
             margin: 0;
@@ -38,18 +46,25 @@
             color: white;
             letter-spacing: 2px;
             font-weight: 700;
+            cursor: pointer;
+            position: relative;
         }
 
-        .sidebar {
-            background: #1d2d50;
-            padding: 20px;
-            display: flex;
+        .dropdown-icon {
+            font-size: 20px;
+            position: absolute;
+            right: 20px;
+            top: 20px;
+            transition: transform 0.3s;
+        }
+
+        .sidebar .menu {
+            display: none;
             flex-direction: column;
-            align-items: center;
+            margin-top: 20px;
         }
 
-        .sidebar a {
-            display: block;
+        .sidebar .menu a {
             color: #ecf0f1;
             text-decoration: none;
             font-size: 16px;
@@ -61,7 +76,7 @@
             transition: background 0.3s, color 0.3s;
         }
 
-        .sidebar a:hover {
+        .sidebar .menu a:hover {
             background: #3498db;
             color: #ecf0f1;
         }
@@ -165,14 +180,16 @@
             }
 
             .sidebar {
-                flex-direction: row;
-                flex-wrap: wrap;
-                justify-content: center;
+                flex-direction: column;
                 padding: 10px;
             }
 
-            .sidebar a {
-                margin: 5px;
+            .sidebar .menu {
+                display: flex;
+            }
+
+            .sidebar .menu a {
+                margin: 5px 0;
                 padding: 8px 12px;
                 font-size: 14px;
             }
@@ -185,15 +202,14 @@
                 font-size: 20px;
                 padding: 10px;
             }
+
+            .dropdown-icon {
+                font-size: 18px;
+            }
         }
 
         @media (max-width: 480px) {
-            .sidebar {
-                flex-direction: column;
-                align-items: stretch;
-            }
-
-            .sidebar a {
+            .sidebar .menu a {
                 font-size: 14px;
                 padding: 8px;
             }
@@ -202,17 +218,23 @@
                 font-size: 18px;
                 padding: 10px;
             }
+
+            .dropdown-icon {
+                font-size: 16px;
+            }
         }
     </style>
 </head>
 <body>
     <div class="admin-container">
         <div class="sidebar">
-            <h1>Admin Dashboard</h1>
-            <a href="#users">Manage Users</a>
-            <a href="<?= base_url('admin/menu') ?>">Manage Posts</a>
-            <a href="#settings">Settings</a>
-            <a href="<?= base_url('login/logout') ?>">Logout</a>
+            <h1 id="dropdown-title">Admin Dashboard <span class="dropdown-icon">&#9660;</span></h1>
+            <div class="menu">
+                <a href="#users">Manage Users</a>
+                <a href="<?= base_url('admin/portfolio') ?>">Manage Posts</a>
+                <a href="#settings">Settings</a>
+                <a href="<?= base_url('login/logout') ?>">Logout</a>
+            </div>
         </div>
         <div class="admin-content">
             <section id="users">
@@ -240,12 +262,23 @@
 
                         <button type="submit" class="btn">Save Settings</button>
                     </form>
-                </div>
+                </div>  
             </section>
         </div>
     </div>
-    <div class="back-to-menu">
-        <a href="<?= base_url('Beranda') ?>">Back to Main Menu</a>
-    </div>
+
+    <script>
+        document.getElementById('dropdown-title').addEventListener('click', function() {
+            var menu = document.querySelector('.sidebar .menu');
+            var icon = document.querySelector('.dropdown-icon');
+            if (menu.style.display === 'flex') {
+                menu.style.display = 'none';
+                icon.innerHTML = '&#9660;'; // Down arrow
+            } else {
+                menu.style.display = 'flex';
+                icon.innerHTML = '&#9650;'; // Up arrow
+            }
+        });
+    </script>
 </body>
 </html>
