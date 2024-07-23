@@ -597,3 +597,1540 @@ in APPPATH\Views\admin.php on line 249.
 11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
 12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\lndgpgms\\NyetNyet\\public\\index.php')
 INFO - 2024-07-23 05:45:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-23 05:46:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-23 05:46:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-23 05:46:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-23 05:51:22 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: hero/edit]
+in APPPATH\Views\hero\edit.php on line 12.
+ 1 APPPATH\Views\hero\edit.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\lndgpgms\\NyetNyet\\app\\Views\\hero\\edit.php', 12)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\lndgpgms\\NyetNyet\\app\\Views\\hero\\edit.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('hero/edit', [], true)
+ 5 APPPATH\Controllers\HeroController.php(15): view('hero/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\HeroController->editHero()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HeroController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\lndgpgms\\NyetNyet\\public\\index.php')
+CRITICAL - 2024-07-23 05:53:31 --> ErrorException: Undefined variable $heroes
+[Method: GET, Route: Beranda]
+in APPPATH\Views\users\beranda\index.php on line 75.
+ 1 APPPATH\Views\users\beranda\index.php(75): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $heroes', 'C:\\xampp\\htdocs\\lndgpgms\\NyetNyet\\app\\Views\\users\\beranda\\index.php', 75)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\lndgpgms\\NyetNyet\\app\\Views\\users\\beranda\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('users/beranda/index', [], true)
+ 5 APPPATH\Controllers\BerandaController.php(17): view('users/beranda/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BerandaController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BerandaController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\lndgpgms\\NyetNyet\\public\\index.php')
+INFO - 2024-07-23 05:53:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-23 05:53:33 --> ErrorException: Undefined variable $heroes
+[Method: GET, Route: Beranda]
+in APPPATH\Views\users\beranda\index.php on line 75.
+ 1 APPPATH\Views\users\beranda\index.php(75): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $heroes', 'C:\\xampp\\htdocs\\lndgpgms\\NyetNyet\\app\\Views\\users\\beranda\\index.php', 75)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\lndgpgms\\NyetNyet\\app\\Views\\users\\beranda\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('users/beranda/index', [], true)
+ 5 APPPATH\Controllers\BerandaController.php(17): view('users/beranda/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BerandaController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BerandaController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\lndgpgms\\NyetNyet\\public\\index.php')
+CRITICAL - 2024-07-23 05:53:34 --> ErrorException: Undefined variable $heroes
+[Method: GET, Route: Beranda]
+in APPPATH\Views\users\beranda\index.php on line 75.
+ 1 APPPATH\Views\users\beranda\index.php(75): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $heroes', 'C:\\xampp\\htdocs\\lndgpgms\\NyetNyet\\app\\Views\\users\\beranda\\index.php', 75)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\lndgpgms\\NyetNyet\\app\\Views\\users\\beranda\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('users/beranda/index', [], true)
+ 5 APPPATH\Controllers\BerandaController.php(17): view('users/beranda/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BerandaController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BerandaController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\lndgpgms\\NyetNyet\\public\\index.php')
+CRITICAL - 2024-07-23 05:55:16 --> ErrorException: Undefined variable $heroes
+[Method: GET, Route: Beranda]
+in APPPATH\Views\users\beranda\index.php on line 75.
+ 1 APPPATH\Views\users\beranda\index.php(75): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $heroes', 'C:\\xampp\\htdocs\\lndgpgms\\NyetNyet\\app\\Views\\users\\beranda\\index.php', 75)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\lndgpgms\\NyetNyet\\app\\Views\\users\\beranda\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('users/beranda/index', [], true)
+ 5 APPPATH\Controllers\BerandaController.php(18): view('users/beranda/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BerandaController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BerandaController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\lndgpgms\\NyetNyet\\public\\index.php')
+CRITICAL - 2024-07-23 05:55:16 --> ErrorException: Undefined variable $heroes
+[Method: GET, Route: Beranda]
+in APPPATH\Views\users\beranda\index.php on line 75.
+ 1 APPPATH\Views\users\beranda\index.php(75): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $heroes', 'C:\\xampp\\htdocs\\lndgpgms\\NyetNyet\\app\\Views\\users\\beranda\\index.php', 75)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\lndgpgms\\NyetNyet\\app\\Views\\users\\beranda\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('users/beranda/index', [], true)
+ 5 APPPATH\Controllers\BerandaController.php(18): view('users/beranda/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BerandaController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BerandaController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\lndgpgms\\NyetNyet\\public\\index.php')
+CRITICAL - 2024-07-23 05:55:16 --> ErrorException: Undefined variable $heroes
+[Method: GET, Route: Beranda]
+in APPPATH\Views\users\beranda\index.php on line 75.
+ 1 APPPATH\Views\users\beranda\index.php(75): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $heroes', 'C:\\xampp\\htdocs\\lndgpgms\\NyetNyet\\app\\Views\\users\\beranda\\index.php', 75)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\lndgpgms\\NyetNyet\\app\\Views\\users\\beranda\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('users/beranda/index', [], true)
+ 5 APPPATH\Controllers\BerandaController.php(18): view('users/beranda/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BerandaController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BerandaController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\lndgpgms\\NyetNyet\\public\\index.php')
+CRITICAL - 2024-07-23 05:55:17 --> ErrorException: Undefined variable $heroes
+[Method: GET, Route: Beranda]
+in APPPATH\Views\users\beranda\index.php on line 75.
+ 1 APPPATH\Views\users\beranda\index.php(75): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $heroes', 'C:\\xampp\\htdocs\\lndgpgms\\NyetNyet\\app\\Views\\users\\beranda\\index.php', 75)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\lndgpgms\\NyetNyet\\app\\Views\\users\\beranda\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('users/beranda/index', [], true)
+ 5 APPPATH\Controllers\BerandaController.php(18): view('users/beranda/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BerandaController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BerandaController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\lndgpgms\\NyetNyet\\public\\index.php')
+CRITICAL - 2024-07-23 05:55:17 --> ErrorException: Undefined variable $heroes
+[Method: GET, Route: Beranda]
+in APPPATH\Views\users\beranda\index.php on line 75.
+ 1 APPPATH\Views\users\beranda\index.php(75): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $heroes', 'C:\\xampp\\htdocs\\lndgpgms\\NyetNyet\\app\\Views\\users\\beranda\\index.php', 75)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\lndgpgms\\NyetNyet\\app\\Views\\users\\beranda\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('users/beranda/index', [], true)
+ 5 APPPATH\Controllers\BerandaController.php(18): view('users/beranda/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BerandaController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BerandaController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\lndgpgms\\NyetNyet\\public\\index.php')
+CRITICAL - 2024-07-23 05:55:17 --> ErrorException: Undefined variable $heroes
+[Method: GET, Route: Beranda]
+in APPPATH\Views\users\beranda\index.php on line 75.
+ 1 APPPATH\Views\users\beranda\index.php(75): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $heroes', 'C:\\xampp\\htdocs\\lndgpgms\\NyetNyet\\app\\Views\\users\\beranda\\index.php', 75)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\lndgpgms\\NyetNyet\\app\\Views\\users\\beranda\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('users/beranda/index', [], true)
+ 5 APPPATH\Controllers\BerandaController.php(18): view('users/beranda/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BerandaController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BerandaController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\lndgpgms\\NyetNyet\\public\\index.php')
+CRITICAL - 2024-07-23 05:55:17 --> ErrorException: Undefined variable $heroes
+[Method: GET, Route: Beranda]
+in APPPATH\Views\users\beranda\index.php on line 75.
+ 1 APPPATH\Views\users\beranda\index.php(75): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $heroes', 'C:\\xampp\\htdocs\\lndgpgms\\NyetNyet\\app\\Views\\users\\beranda\\index.php', 75)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\lndgpgms\\NyetNyet\\app\\Views\\users\\beranda\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('users/beranda/index', [], true)
+ 5 APPPATH\Controllers\BerandaController.php(18): view('users/beranda/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BerandaController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BerandaController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\lndgpgms\\NyetNyet\\public\\index.php')
+CRITICAL - 2024-07-23 05:55:17 --> ErrorException: Undefined variable $heroes
+[Method: GET, Route: Beranda]
+in APPPATH\Views\users\beranda\index.php on line 75.
+ 1 APPPATH\Views\users\beranda\index.php(75): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $heroes', 'C:\\xampp\\htdocs\\lndgpgms\\NyetNyet\\app\\Views\\users\\beranda\\index.php', 75)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\lndgpgms\\NyetNyet\\app\\Views\\users\\beranda\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('users/beranda/index', [], true)
+ 5 APPPATH\Controllers\BerandaController.php(18): view('users/beranda/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BerandaController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BerandaController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\lndgpgms\\NyetNyet\\public\\index.php')
+CRITICAL - 2024-07-23 05:55:18 --> ErrorException: Undefined variable $heroes
+[Method: GET, Route: Beranda]
+in APPPATH\Views\users\beranda\index.php on line 75.
+ 1 APPPATH\Views\users\beranda\index.php(75): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $heroes', 'C:\\xampp\\htdocs\\lndgpgms\\NyetNyet\\app\\Views\\users\\beranda\\index.php', 75)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\lndgpgms\\NyetNyet\\app\\Views\\users\\beranda\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('users/beranda/index', [], true)
+ 5 APPPATH\Controllers\BerandaController.php(18): view('users/beranda/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BerandaController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BerandaController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\lndgpgms\\NyetNyet\\public\\index.php')
+CRITICAL - 2024-07-23 05:55:18 --> ErrorException: Undefined variable $heroes
+[Method: GET, Route: Beranda]
+in APPPATH\Views\users\beranda\index.php on line 75.
+ 1 APPPATH\Views\users\beranda\index.php(75): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $heroes', 'C:\\xampp\\htdocs\\lndgpgms\\NyetNyet\\app\\Views\\users\\beranda\\index.php', 75)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\lndgpgms\\NyetNyet\\app\\Views\\users\\beranda\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('users/beranda/index', [], true)
+ 5 APPPATH\Controllers\BerandaController.php(18): view('users/beranda/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BerandaController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BerandaController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\lndgpgms\\NyetNyet\\public\\index.php')
+CRITICAL - 2024-07-23 05:55:18 --> ErrorException: Undefined variable $heroes
+[Method: GET, Route: Beranda]
+in APPPATH\Views\users\beranda\index.php on line 75.
+ 1 APPPATH\Views\users\beranda\index.php(75): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $heroes', 'C:\\xampp\\htdocs\\lndgpgms\\NyetNyet\\app\\Views\\users\\beranda\\index.php', 75)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\lndgpgms\\NyetNyet\\app\\Views\\users\\beranda\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('users/beranda/index', [], true)
+ 5 APPPATH\Controllers\BerandaController.php(18): view('users/beranda/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BerandaController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BerandaController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\lndgpgms\\NyetNyet\\public\\index.php')
+CRITICAL - 2024-07-23 05:55:18 --> ErrorException: Undefined variable $heroes
+[Method: GET, Route: Beranda]
+in APPPATH\Views\users\beranda\index.php on line 75.
+ 1 APPPATH\Views\users\beranda\index.php(75): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $heroes', 'C:\\xampp\\htdocs\\lndgpgms\\NyetNyet\\app\\Views\\users\\beranda\\index.php', 75)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\lndgpgms\\NyetNyet\\app\\Views\\users\\beranda\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('users/beranda/index', [], true)
+ 5 APPPATH\Controllers\BerandaController.php(18): view('users/beranda/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BerandaController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BerandaController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\lndgpgms\\NyetNyet\\public\\index.php')
+CRITICAL - 2024-07-23 05:55:54 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "hero/index.php"
+[Method: GET, Route: hero]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('hero/index.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('hero/index', [], true)
+ 3 APPPATH\Controllers\HeroController.php(15): view('hero/index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\HeroController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HeroController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\lndgpgms\\NyetNyet\\public\\index.php')
+INFO - 2024-07-23 06:44:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-23 06:44:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-23 06:52:36 --> [DEPRECATED] Passing lowercase HTTP method "get" is deprecated. Use uppercase HTTP method like "GET". in SYSTEMPATH\Router\RouteCollection.php on line 1027.
+ 1 SYSTEMPATH\Router\RouteCollection.php(1027): trigger_error('Passing lowercase HTTP method "get" is deprecated. Use uppercase HTTP method like "GET".', 16384)
+ 2 APPPATH\Config\Routes.php(30): CodeIgniter\Router\RouteCollection->match([...], 'contact/send', 'ContactController::send')
+ 3 SYSTEMPATH\Router\RouteCollection.php(340): require('C:\\xampp\\htdocs\\lndgpgms\\NyetNyet\\app\\Config\\Routes.php')
+ 4 SYSTEMPATH\CodeIgniter.php(823): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\lndgpgms\\NyetNyet\\public\\index.php')
+WARNING - 2024-07-23 06:52:36 --> [DEPRECATED] Passing lowercase HTTP method "post" is deprecated. Use uppercase HTTP method like "POST". in SYSTEMPATH\Router\RouteCollection.php on line 1027.
+ 1 SYSTEMPATH\Router\RouteCollection.php(1027): trigger_error('Passing lowercase HTTP method "post" is deprecated. Use uppercase HTTP method like "POST".', 16384)
+ 2 APPPATH\Config\Routes.php(30): CodeIgniter\Router\RouteCollection->match([...], 'contact/send', 'ContactController::send')
+ 3 SYSTEMPATH\Router\RouteCollection.php(340): require('C:\\xampp\\htdocs\\lndgpgms\\NyetNyet\\app\\Config\\Routes.php')
+ 4 SYSTEMPATH\CodeIgniter.php(823): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\lndgpgms\\NyetNyet\\public\\index.php')
+INFO - 2024-07-23 06:52:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-23 06:52:44 --> [DEPRECATED] Passing lowercase HTTP method "get" is deprecated. Use uppercase HTTP method like "GET". in SYSTEMPATH\Router\RouteCollection.php on line 1027.
+ 1 SYSTEMPATH\Router\RouteCollection.php(1027): trigger_error('Passing lowercase HTTP method "get" is deprecated. Use uppercase HTTP method like "GET".', 16384)
+ 2 APPPATH\Config\Routes.php(30): CodeIgniter\Router\RouteCollection->match([...], 'contact/send', 'ContactController::send')
+ 3 SYSTEMPATH\Router\RouteCollection.php(340): require('C:\\xampp\\htdocs\\lndgpgms\\NyetNyet\\app\\Config\\Routes.php')
+ 4 SYSTEMPATH\CodeIgniter.php(823): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\lndgpgms\\NyetNyet\\public\\index.php')
+WARNING - 2024-07-23 06:52:44 --> [DEPRECATED] Passing lowercase HTTP method "post" is deprecated. Use uppercase HTTP method like "POST". in SYSTEMPATH\Router\RouteCollection.php on line 1027.
+ 1 SYSTEMPATH\Router\RouteCollection.php(1027): trigger_error('Passing lowercase HTTP method "post" is deprecated. Use uppercase HTTP method like "POST".', 16384)
+ 2 APPPATH\Config\Routes.php(30): CodeIgniter\Router\RouteCollection->match([...], 'contact/send', 'ContactController::send')
+ 3 SYSTEMPATH\Router\RouteCollection.php(340): require('C:\\xampp\\htdocs\\lndgpgms\\NyetNyet\\app\\Config\\Routes.php')
+ 4 SYSTEMPATH\CodeIgniter.php(823): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\lndgpgms\\NyetNyet\\public\\index.php')
+CRITICAL - 2024-07-23 06:52:44 --> Error: Cannot use object of type App\Config\Email as array
+[Method: POST, Route: contact/send]
+in SYSTEMPATH\Email\Email.php on line 427.
+ 1 SYSTEMPATH\Email\Email.php(405): CodeIgniter\Email\Email->initialize(Object(App\Config\Email))
+ 2 SYSTEMPATH\Config\Services.php(235): CodeIgniter\Email\Email->__construct(Object(App\Config\Email))
+ 3 SYSTEMPATH\Config\BaseService.php(311): CodeIgniter\Config\Services::email(Object(App\Config\Email), false)
+ 4 SYSTEMPATH\Config\BaseService.php(250): CodeIgniter\Config\BaseService::__callStatic('email', [...])
+ 5 SYSTEMPATH\Config\Services.php(228): CodeIgniter\Config\BaseService::getSharedInstance('email', null)
+ 6 SYSTEMPATH\Config\BaseService.php(320): CodeIgniter\Config\Services::email()
+ 7 APPPATH\Controllers\ContactController.php(24): CodeIgniter\Config\BaseService::__callStatic('email', [])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ContactController->send()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContactController))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\lndgpgms\\NyetNyet\\public\\index.php')
+WARNING - 2024-07-23 06:52:44 --> [DEPRECATED] Passing lowercase HTTP method "get" is deprecated. Use uppercase HTTP method like "GET". in SYSTEMPATH\Router\RouteCollection.php on line 1027.
+ 1 SYSTEMPATH\Router\RouteCollection.php(1027): trigger_error('Passing lowercase HTTP method "get" is deprecated. Use uppercase HTTP method like "GET".', 16384)
+ 2 APPPATH\Config\Routes.php(30): CodeIgniter\Router\RouteCollection->match([...], 'contact/send', 'ContactController::send')
+ 3 SYSTEMPATH\Router\RouteCollection.php(340): require('C:\\xampp\\htdocs\\lndgpgms\\NyetNyet\\app\\Config\\Routes.php')
+ 4 SYSTEMPATH\CodeIgniter.php(823): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\lndgpgms\\NyetNyet\\public\\index.php')
+WARNING - 2024-07-23 06:52:44 --> [DEPRECATED] Passing lowercase HTTP method "post" is deprecated. Use uppercase HTTP method like "POST". in SYSTEMPATH\Router\RouteCollection.php on line 1027.
+ 1 SYSTEMPATH\Router\RouteCollection.php(1027): trigger_error('Passing lowercase HTTP method "post" is deprecated. Use uppercase HTTP method like "POST".', 16384)
+ 2 APPPATH\Config\Routes.php(30): CodeIgniter\Router\RouteCollection->match([...], 'contact/send', 'ContactController::send')
+ 3 SYSTEMPATH\Router\RouteCollection.php(340): require('C:\\xampp\\htdocs\\lndgpgms\\NyetNyet\\app\\Config\\Routes.php')
+ 4 SYSTEMPATH\CodeIgniter.php(823): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\lndgpgms\\NyetNyet\\public\\index.php')
+CRITICAL - 2024-07-23 06:52:44 --> Error: Cannot use object of type App\Config\Email as array
+[Method: POST, Route: contact/send]
+in SYSTEMPATH\Email\Email.php on line 427.
+ 1 SYSTEMPATH\Email\Email.php(405): CodeIgniter\Email\Email->initialize(Object(App\Config\Email))
+ 2 SYSTEMPATH\Config\Services.php(235): CodeIgniter\Email\Email->__construct(Object(App\Config\Email))
+ 3 SYSTEMPATH\Config\BaseService.php(311): CodeIgniter\Config\Services::email(Object(App\Config\Email), false)
+ 4 SYSTEMPATH\Config\BaseService.php(250): CodeIgniter\Config\BaseService::__callStatic('email', [...])
+ 5 SYSTEMPATH\Config\Services.php(228): CodeIgniter\Config\BaseService::getSharedInstance('email', null)
+ 6 SYSTEMPATH\Config\BaseService.php(320): CodeIgniter\Config\Services::email()
+ 7 APPPATH\Controllers\ContactController.php(24): CodeIgniter\Config\BaseService::__callStatic('email', [])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ContactController->send()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContactController))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\lndgpgms\\NyetNyet\\public\\index.php')
+WARNING - 2024-07-23 06:52:46 --> [DEPRECATED] Passing lowercase HTTP method "get" is deprecated. Use uppercase HTTP method like "GET". in SYSTEMPATH\Router\RouteCollection.php on line 1027.
+ 1 SYSTEMPATH\Router\RouteCollection.php(1027): trigger_error('Passing lowercase HTTP method "get" is deprecated. Use uppercase HTTP method like "GET".', 16384)
+ 2 APPPATH\Config\Routes.php(30): CodeIgniter\Router\RouteCollection->match([...], 'contact/send', 'ContactController::send')
+ 3 SYSTEMPATH\Router\RouteCollection.php(340): require('C:\\xampp\\htdocs\\lndgpgms\\NyetNyet\\app\\Config\\Routes.php')
+ 4 SYSTEMPATH\CodeIgniter.php(823): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\lndgpgms\\NyetNyet\\public\\index.php')
+WARNING - 2024-07-23 06:52:46 --> [DEPRECATED] Passing lowercase HTTP method "post" is deprecated. Use uppercase HTTP method like "POST". in SYSTEMPATH\Router\RouteCollection.php on line 1027.
+ 1 SYSTEMPATH\Router\RouteCollection.php(1027): trigger_error('Passing lowercase HTTP method "post" is deprecated. Use uppercase HTTP method like "POST".', 16384)
+ 2 APPPATH\Config\Routes.php(30): CodeIgniter\Router\RouteCollection->match([...], 'contact/send', 'ContactController::send')
+ 3 SYSTEMPATH\Router\RouteCollection.php(340): require('C:\\xampp\\htdocs\\lndgpgms\\NyetNyet\\app\\Config\\Routes.php')
+ 4 SYSTEMPATH\CodeIgniter.php(823): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\lndgpgms\\NyetNyet\\public\\index.php')
+CRITICAL - 2024-07-23 06:52:46 --> Error: Cannot use object of type App\Config\Email as array
+[Method: POST, Route: contact/send]
+in SYSTEMPATH\Email\Email.php on line 427.
+ 1 SYSTEMPATH\Email\Email.php(405): CodeIgniter\Email\Email->initialize(Object(App\Config\Email))
+ 2 SYSTEMPATH\Config\Services.php(235): CodeIgniter\Email\Email->__construct(Object(App\Config\Email))
+ 3 SYSTEMPATH\Config\BaseService.php(311): CodeIgniter\Config\Services::email(Object(App\Config\Email), false)
+ 4 SYSTEMPATH\Config\BaseService.php(250): CodeIgniter\Config\BaseService::__callStatic('email', [...])
+ 5 SYSTEMPATH\Config\Services.php(228): CodeIgniter\Config\BaseService::getSharedInstance('email', null)
+ 6 SYSTEMPATH\Config\BaseService.php(320): CodeIgniter\Config\Services::email()
+ 7 APPPATH\Controllers\ContactController.php(24): CodeIgniter\Config\BaseService::__callStatic('email', [])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ContactController->send()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContactController))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\lndgpgms\\NyetNyet\\public\\index.php')
+WARNING - 2024-07-23 06:52:46 --> [DEPRECATED] Passing lowercase HTTP method "get" is deprecated. Use uppercase HTTP method like "GET". in SYSTEMPATH\Router\RouteCollection.php on line 1027.
+ 1 SYSTEMPATH\Router\RouteCollection.php(1027): trigger_error('Passing lowercase HTTP method "get" is deprecated. Use uppercase HTTP method like "GET".', 16384)
+ 2 APPPATH\Config\Routes.php(30): CodeIgniter\Router\RouteCollection->match([...], 'contact/send', 'ContactController::send')
+ 3 SYSTEMPATH\Router\RouteCollection.php(340): require('C:\\xampp\\htdocs\\lndgpgms\\NyetNyet\\app\\Config\\Routes.php')
+ 4 SYSTEMPATH\CodeIgniter.php(823): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\lndgpgms\\NyetNyet\\public\\index.php')
+WARNING - 2024-07-23 06:52:46 --> [DEPRECATED] Passing lowercase HTTP method "post" is deprecated. Use uppercase HTTP method like "POST". in SYSTEMPATH\Router\RouteCollection.php on line 1027.
+ 1 SYSTEMPATH\Router\RouteCollection.php(1027): trigger_error('Passing lowercase HTTP method "post" is deprecated. Use uppercase HTTP method like "POST".', 16384)
+ 2 APPPATH\Config\Routes.php(30): CodeIgniter\Router\RouteCollection->match([...], 'contact/send', 'ContactController::send')
+ 3 SYSTEMPATH\Router\RouteCollection.php(340): require('C:\\xampp\\htdocs\\lndgpgms\\NyetNyet\\app\\Config\\Routes.php')
+ 4 SYSTEMPATH\CodeIgniter.php(823): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\lndgpgms\\NyetNyet\\public\\index.php')
+CRITICAL - 2024-07-23 06:52:46 --> Error: Cannot use object of type App\Config\Email as array
+[Method: POST, Route: contact/send]
+in SYSTEMPATH\Email\Email.php on line 427.
+ 1 SYSTEMPATH\Email\Email.php(405): CodeIgniter\Email\Email->initialize(Object(App\Config\Email))
+ 2 SYSTEMPATH\Config\Services.php(235): CodeIgniter\Email\Email->__construct(Object(App\Config\Email))
+ 3 SYSTEMPATH\Config\BaseService.php(311): CodeIgniter\Config\Services::email(Object(App\Config\Email), false)
+ 4 SYSTEMPATH\Config\BaseService.php(250): CodeIgniter\Config\BaseService::__callStatic('email', [...])
+ 5 SYSTEMPATH\Config\Services.php(228): CodeIgniter\Config\BaseService::getSharedInstance('email', null)
+ 6 SYSTEMPATH\Config\BaseService.php(320): CodeIgniter\Config\Services::email()
+ 7 APPPATH\Controllers\ContactController.php(24): CodeIgniter\Config\BaseService::__callStatic('email', [])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ContactController->send()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContactController))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\lndgpgms\\NyetNyet\\public\\index.php')
+INFO - 2024-07-23 07:42:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-07-23 07:42:32 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2024-07-23 07:42:32 --> 220 smtp.gmail.com ESMTP d9443c01a7336-1fd6f2ab34dsm67886215ad.110 - gsmtp
+
+hello: 250-smtp.gmail.com at your service, [2001:448a:4042:3723:904a:8462:c8e:ec65]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+Failed to authenticate password. Error: 534-5.7.9 Application-specific password required. For more information, go to
+534 5.7.9  https://support.google.com/mail/?p=InvalidSecondFactor d9443c01a7336-1fd6f2ab34dsm67886215ad.110 - gsmtp
+
+ERROR - 2024-07-23 07:42:33 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2024-07-23 07:42:33 --> 220 smtp.gmail.com ESMTP d2e1a72fcca58-70d253d2ccesm3227239b3a.41 - gsmtp
+
+hello: 250-smtp.gmail.com at your service, [2001:448a:4042:3723:904a:8462:c8e:ec65]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+Failed to authenticate password. Error: 534-5.7.9 Application-specific password required. For more information, go to
+534 5.7.9  https://support.google.com/mail/?p=InvalidSecondFactor d2e1a72fcca58-70d253d2ccesm3227239b3a.41 - gsmtp
+
+INFO - 2024-07-23 07:43:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-07-23 07:43:31 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2024-07-23 07:43:31 --> 220 smtp.gmail.com ESMTP d9443c01a7336-1fd6f47869bsm67368525ad.271 - gsmtp
+
+hello: 250-smtp.gmail.com at your service, [2001:448a:4042:3723:904a:8462:c8e:ec65]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+Failed to authenticate password. Error: 534-5.7.9 Application-specific password required. For more information, go to
+534 5.7.9  https://support.google.com/mail/?p=InvalidSecondFactor d9443c01a7336-1fd6f47869bsm67368525ad.271 - gsmtp
+
+ERROR - 2024-07-23 07:43:33 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2024-07-23 07:43:33 --> 220 smtp.gmail.com ESMTP 98e67ed59e1d1-2ccf7c72464sm8341962a91.32 - gsmtp
+
+hello: 250-smtp.gmail.com at your service, [2001:448a:4042:3723:904a:8462:c8e:ec65]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+Failed to authenticate password. Error: 534-5.7.9 Application-specific password required. For more information, go to
+534 5.7.9  https://support.google.com/mail/?p=InvalidSecondFactor 98e67ed59e1d1-2ccf7c72464sm8341962a91.32 - gsmtp
+
+INFO - 2024-07-23 07:45:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-23 07:46:06 --> Error: Cannot use object of type App\Config\Email as array
+[Method: POST, Route: contact/send]
+in SYSTEMPATH\Email\Email.php on line 427.
+ 1 SYSTEMPATH\Email\Email.php(405): CodeIgniter\Email\Email->initialize(Object(App\Config\Email))
+ 2 SYSTEMPATH\Config\Services.php(235): CodeIgniter\Email\Email->__construct(Object(App\Config\Email))
+ 3 SYSTEMPATH\Config\BaseService.php(311): CodeIgniter\Config\Services::email(Object(App\Config\Email), false)
+ 4 SYSTEMPATH\Config\BaseService.php(250): CodeIgniter\Config\BaseService::__callStatic('email', [...])
+ 5 SYSTEMPATH\Config\Services.php(228): CodeIgniter\Config\BaseService::getSharedInstance('email', null)
+ 6 SYSTEMPATH\Config\BaseService.php(320): CodeIgniter\Config\Services::email()
+ 7 APPPATH\Controllers\EmailController.php(22): CodeIgniter\Config\BaseService::__callStatic('email', [])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\EmailController->send()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmailController))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\lndgpgms\\NyetNyet\\public\\index.php')
+CRITICAL - 2024-07-23 07:46:06 --> Error: Cannot use object of type App\Config\Email as array
+[Method: POST, Route: contact/send]
+in SYSTEMPATH\Email\Email.php on line 427.
+ 1 SYSTEMPATH\Email\Email.php(405): CodeIgniter\Email\Email->initialize(Object(App\Config\Email))
+ 2 SYSTEMPATH\Config\Services.php(235): CodeIgniter\Email\Email->__construct(Object(App\Config\Email))
+ 3 SYSTEMPATH\Config\BaseService.php(311): CodeIgniter\Config\Services::email(Object(App\Config\Email), false)
+ 4 SYSTEMPATH\Config\BaseService.php(250): CodeIgniter\Config\BaseService::__callStatic('email', [...])
+ 5 SYSTEMPATH\Config\Services.php(228): CodeIgniter\Config\BaseService::getSharedInstance('email', null)
+ 6 SYSTEMPATH\Config\BaseService.php(320): CodeIgniter\Config\Services::email()
+ 7 APPPATH\Controllers\EmailController.php(22): CodeIgniter\Config\BaseService::__callStatic('email', [])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\EmailController->send()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmailController))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\lndgpgms\\NyetNyet\\public\\index.php')
+CRITICAL - 2024-07-23 07:46:08 --> Error: Cannot use object of type App\Config\Email as array
+[Method: POST, Route: contact/send]
+in SYSTEMPATH\Email\Email.php on line 427.
+ 1 SYSTEMPATH\Email\Email.php(405): CodeIgniter\Email\Email->initialize(Object(App\Config\Email))
+ 2 SYSTEMPATH\Config\Services.php(235): CodeIgniter\Email\Email->__construct(Object(App\Config\Email))
+ 3 SYSTEMPATH\Config\BaseService.php(311): CodeIgniter\Config\Services::email(Object(App\Config\Email), false)
+ 4 SYSTEMPATH\Config\BaseService.php(250): CodeIgniter\Config\BaseService::__callStatic('email', [...])
+ 5 SYSTEMPATH\Config\Services.php(228): CodeIgniter\Config\BaseService::getSharedInstance('email', null)
+ 6 SYSTEMPATH\Config\BaseService.php(320): CodeIgniter\Config\Services::email()
+ 7 APPPATH\Controllers\EmailController.php(22): CodeIgniter\Config\BaseService::__callStatic('email', [])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\EmailController->send()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmailController))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\lndgpgms\\NyetNyet\\public\\index.php')
+CRITICAL - 2024-07-23 07:46:08 --> Error: Cannot use object of type App\Config\Email as array
+[Method: POST, Route: contact/send]
+in SYSTEMPATH\Email\Email.php on line 427.
+ 1 SYSTEMPATH\Email\Email.php(405): CodeIgniter\Email\Email->initialize(Object(App\Config\Email))
+ 2 SYSTEMPATH\Config\Services.php(235): CodeIgniter\Email\Email->__construct(Object(App\Config\Email))
+ 3 SYSTEMPATH\Config\BaseService.php(311): CodeIgniter\Config\Services::email(Object(App\Config\Email), false)
+ 4 SYSTEMPATH\Config\BaseService.php(250): CodeIgniter\Config\BaseService::__callStatic('email', [...])
+ 5 SYSTEMPATH\Config\Services.php(228): CodeIgniter\Config\BaseService::getSharedInstance('email', null)
+ 6 SYSTEMPATH\Config\BaseService.php(320): CodeIgniter\Config\Services::email()
+ 7 APPPATH\Controllers\EmailController.php(22): CodeIgniter\Config\BaseService::__callStatic('email', [])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\EmailController->send()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmailController))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\lndgpgms\\NyetNyet\\public\\index.php')
+CRITICAL - 2024-07-23 07:46:08 --> Error: Cannot use object of type App\Config\Email as array
+[Method: POST, Route: contact/send]
+in SYSTEMPATH\Email\Email.php on line 427.
+ 1 SYSTEMPATH\Email\Email.php(405): CodeIgniter\Email\Email->initialize(Object(App\Config\Email))
+ 2 SYSTEMPATH\Config\Services.php(235): CodeIgniter\Email\Email->__construct(Object(App\Config\Email))
+ 3 SYSTEMPATH\Config\BaseService.php(311): CodeIgniter\Config\Services::email(Object(App\Config\Email), false)
+ 4 SYSTEMPATH\Config\BaseService.php(250): CodeIgniter\Config\BaseService::__callStatic('email', [...])
+ 5 SYSTEMPATH\Config\Services.php(228): CodeIgniter\Config\BaseService::getSharedInstance('email', null)
+ 6 SYSTEMPATH\Config\BaseService.php(320): CodeIgniter\Config\Services::email()
+ 7 APPPATH\Controllers\EmailController.php(22): CodeIgniter\Config\BaseService::__callStatic('email', [])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\EmailController->send()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmailController))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\lndgpgms\\NyetNyet\\public\\index.php')
+CRITICAL - 2024-07-23 07:46:08 --> Error: Cannot use object of type App\Config\Email as array
+[Method: POST, Route: contact/send]
+in SYSTEMPATH\Email\Email.php on line 427.
+ 1 SYSTEMPATH\Email\Email.php(405): CodeIgniter\Email\Email->initialize(Object(App\Config\Email))
+ 2 SYSTEMPATH\Config\Services.php(235): CodeIgniter\Email\Email->__construct(Object(App\Config\Email))
+ 3 SYSTEMPATH\Config\BaseService.php(311): CodeIgniter\Config\Services::email(Object(App\Config\Email), false)
+ 4 SYSTEMPATH\Config\BaseService.php(250): CodeIgniter\Config\BaseService::__callStatic('email', [...])
+ 5 SYSTEMPATH\Config\Services.php(228): CodeIgniter\Config\BaseService::getSharedInstance('email', null)
+ 6 SYSTEMPATH\Config\BaseService.php(320): CodeIgniter\Config\Services::email()
+ 7 APPPATH\Controllers\EmailController.php(22): CodeIgniter\Config\BaseService::__callStatic('email', [])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\EmailController->send()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmailController))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\lndgpgms\\NyetNyet\\public\\index.php')
+CRITICAL - 2024-07-23 07:46:09 --> Error: Cannot use object of type App\Config\Email as array
+[Method: POST, Route: contact/send]
+in SYSTEMPATH\Email\Email.php on line 427.
+ 1 SYSTEMPATH\Email\Email.php(405): CodeIgniter\Email\Email->initialize(Object(App\Config\Email))
+ 2 SYSTEMPATH\Config\Services.php(235): CodeIgniter\Email\Email->__construct(Object(App\Config\Email))
+ 3 SYSTEMPATH\Config\BaseService.php(311): CodeIgniter\Config\Services::email(Object(App\Config\Email), false)
+ 4 SYSTEMPATH\Config\BaseService.php(250): CodeIgniter\Config\BaseService::__callStatic('email', [...])
+ 5 SYSTEMPATH\Config\Services.php(228): CodeIgniter\Config\BaseService::getSharedInstance('email', null)
+ 6 SYSTEMPATH\Config\BaseService.php(320): CodeIgniter\Config\Services::email()
+ 7 APPPATH\Controllers\EmailController.php(22): CodeIgniter\Config\BaseService::__callStatic('email', [])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\EmailController->send()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmailController))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\lndgpgms\\NyetNyet\\public\\index.php')
+CRITICAL - 2024-07-23 07:46:09 --> Error: Cannot use object of type App\Config\Email as array
+[Method: POST, Route: contact/send]
+in SYSTEMPATH\Email\Email.php on line 427.
+ 1 SYSTEMPATH\Email\Email.php(405): CodeIgniter\Email\Email->initialize(Object(App\Config\Email))
+ 2 SYSTEMPATH\Config\Services.php(235): CodeIgniter\Email\Email->__construct(Object(App\Config\Email))
+ 3 SYSTEMPATH\Config\BaseService.php(311): CodeIgniter\Config\Services::email(Object(App\Config\Email), false)
+ 4 SYSTEMPATH\Config\BaseService.php(250): CodeIgniter\Config\BaseService::__callStatic('email', [...])
+ 5 SYSTEMPATH\Config\Services.php(228): CodeIgniter\Config\BaseService::getSharedInstance('email', null)
+ 6 SYSTEMPATH\Config\BaseService.php(320): CodeIgniter\Config\Services::email()
+ 7 APPPATH\Controllers\EmailController.php(22): CodeIgniter\Config\BaseService::__callStatic('email', [])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\EmailController->send()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmailController))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\lndgpgms\\NyetNyet\\public\\index.php')
+CRITICAL - 2024-07-23 07:46:09 --> Error: Cannot use object of type App\Config\Email as array
+[Method: POST, Route: contact/send]
+in SYSTEMPATH\Email\Email.php on line 427.
+ 1 SYSTEMPATH\Email\Email.php(405): CodeIgniter\Email\Email->initialize(Object(App\Config\Email))
+ 2 SYSTEMPATH\Config\Services.php(235): CodeIgniter\Email\Email->__construct(Object(App\Config\Email))
+ 3 SYSTEMPATH\Config\BaseService.php(311): CodeIgniter\Config\Services::email(Object(App\Config\Email), false)
+ 4 SYSTEMPATH\Config\BaseService.php(250): CodeIgniter\Config\BaseService::__callStatic('email', [...])
+ 5 SYSTEMPATH\Config\Services.php(228): CodeIgniter\Config\BaseService::getSharedInstance('email', null)
+ 6 SYSTEMPATH\Config\BaseService.php(320): CodeIgniter\Config\Services::email()
+ 7 APPPATH\Controllers\EmailController.php(22): CodeIgniter\Config\BaseService::__callStatic('email', [])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\EmailController->send()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmailController))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\lndgpgms\\NyetNyet\\public\\index.php')
+CRITICAL - 2024-07-23 07:46:09 --> Error: Cannot use object of type App\Config\Email as array
+[Method: POST, Route: contact/send]
+in SYSTEMPATH\Email\Email.php on line 427.
+ 1 SYSTEMPATH\Email\Email.php(405): CodeIgniter\Email\Email->initialize(Object(App\Config\Email))
+ 2 SYSTEMPATH\Config\Services.php(235): CodeIgniter\Email\Email->__construct(Object(App\Config\Email))
+ 3 SYSTEMPATH\Config\BaseService.php(311): CodeIgniter\Config\Services::email(Object(App\Config\Email), false)
+ 4 SYSTEMPATH\Config\BaseService.php(250): CodeIgniter\Config\BaseService::__callStatic('email', [...])
+ 5 SYSTEMPATH\Config\Services.php(228): CodeIgniter\Config\BaseService::getSharedInstance('email', null)
+ 6 SYSTEMPATH\Config\BaseService.php(320): CodeIgniter\Config\Services::email()
+ 7 APPPATH\Controllers\EmailController.php(22): CodeIgniter\Config\BaseService::__callStatic('email', [])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\EmailController->send()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmailController))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\lndgpgms\\NyetNyet\\public\\index.php')
+CRITICAL - 2024-07-23 07:46:09 --> Error: Cannot use object of type App\Config\Email as array
+[Method: POST, Route: contact/send]
+in SYSTEMPATH\Email\Email.php on line 427.
+ 1 SYSTEMPATH\Email\Email.php(405): CodeIgniter\Email\Email->initialize(Object(App\Config\Email))
+ 2 SYSTEMPATH\Config\Services.php(235): CodeIgniter\Email\Email->__construct(Object(App\Config\Email))
+ 3 SYSTEMPATH\Config\BaseService.php(311): CodeIgniter\Config\Services::email(Object(App\Config\Email), false)
+ 4 SYSTEMPATH\Config\BaseService.php(250): CodeIgniter\Config\BaseService::__callStatic('email', [...])
+ 5 SYSTEMPATH\Config\Services.php(228): CodeIgniter\Config\BaseService::getSharedInstance('email', null)
+ 6 SYSTEMPATH\Config\BaseService.php(320): CodeIgniter\Config\Services::email()
+ 7 APPPATH\Controllers\EmailController.php(22): CodeIgniter\Config\BaseService::__callStatic('email', [])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\EmailController->send()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmailController))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\lndgpgms\\NyetNyet\\public\\index.php')
+CRITICAL - 2024-07-23 07:46:09 --> Error: Cannot use object of type App\Config\Email as array
+[Method: POST, Route: contact/send]
+in SYSTEMPATH\Email\Email.php on line 427.
+ 1 SYSTEMPATH\Email\Email.php(405): CodeIgniter\Email\Email->initialize(Object(App\Config\Email))
+ 2 SYSTEMPATH\Config\Services.php(235): CodeIgniter\Email\Email->__construct(Object(App\Config\Email))
+ 3 SYSTEMPATH\Config\BaseService.php(311): CodeIgniter\Config\Services::email(Object(App\Config\Email), false)
+ 4 SYSTEMPATH\Config\BaseService.php(250): CodeIgniter\Config\BaseService::__callStatic('email', [...])
+ 5 SYSTEMPATH\Config\Services.php(228): CodeIgniter\Config\BaseService::getSharedInstance('email', null)
+ 6 SYSTEMPATH\Config\BaseService.php(320): CodeIgniter\Config\Services::email()
+ 7 APPPATH\Controllers\EmailController.php(22): CodeIgniter\Config\BaseService::__callStatic('email', [])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\EmailController->send()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmailController))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\lndgpgms\\NyetNyet\\public\\index.php')
+CRITICAL - 2024-07-23 07:46:10 --> Error: Cannot use object of type App\Config\Email as array
+[Method: POST, Route: contact/send]
+in SYSTEMPATH\Email\Email.php on line 427.
+ 1 SYSTEMPATH\Email\Email.php(405): CodeIgniter\Email\Email->initialize(Object(App\Config\Email))
+ 2 SYSTEMPATH\Config\Services.php(235): CodeIgniter\Email\Email->__construct(Object(App\Config\Email))
+ 3 SYSTEMPATH\Config\BaseService.php(311): CodeIgniter\Config\Services::email(Object(App\Config\Email), false)
+ 4 SYSTEMPATH\Config\BaseService.php(250): CodeIgniter\Config\BaseService::__callStatic('email', [...])
+ 5 SYSTEMPATH\Config\Services.php(228): CodeIgniter\Config\BaseService::getSharedInstance('email', null)
+ 6 SYSTEMPATH\Config\BaseService.php(320): CodeIgniter\Config\Services::email()
+ 7 APPPATH\Controllers\EmailController.php(22): CodeIgniter\Config\BaseService::__callStatic('email', [])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\EmailController->send()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmailController))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\lndgpgms\\NyetNyet\\public\\index.php')
+CRITICAL - 2024-07-23 07:46:10 --> Error: Cannot use object of type App\Config\Email as array
+[Method: POST, Route: contact/send]
+in SYSTEMPATH\Email\Email.php on line 427.
+ 1 SYSTEMPATH\Email\Email.php(405): CodeIgniter\Email\Email->initialize(Object(App\Config\Email))
+ 2 SYSTEMPATH\Config\Services.php(235): CodeIgniter\Email\Email->__construct(Object(App\Config\Email))
+ 3 SYSTEMPATH\Config\BaseService.php(311): CodeIgniter\Config\Services::email(Object(App\Config\Email), false)
+ 4 SYSTEMPATH\Config\BaseService.php(250): CodeIgniter\Config\BaseService::__callStatic('email', [...])
+ 5 SYSTEMPATH\Config\Services.php(228): CodeIgniter\Config\BaseService::getSharedInstance('email', null)
+ 6 SYSTEMPATH\Config\BaseService.php(320): CodeIgniter\Config\Services::email()
+ 7 APPPATH\Controllers\EmailController.php(22): CodeIgniter\Config\BaseService::__callStatic('email', [])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\EmailController->send()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmailController))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\lndgpgms\\NyetNyet\\public\\index.php')
+CRITICAL - 2024-07-23 07:46:10 --> Error: Cannot use object of type App\Config\Email as array
+[Method: POST, Route: contact/send]
+in SYSTEMPATH\Email\Email.php on line 427.
+ 1 SYSTEMPATH\Email\Email.php(405): CodeIgniter\Email\Email->initialize(Object(App\Config\Email))
+ 2 SYSTEMPATH\Config\Services.php(235): CodeIgniter\Email\Email->__construct(Object(App\Config\Email))
+ 3 SYSTEMPATH\Config\BaseService.php(311): CodeIgniter\Config\Services::email(Object(App\Config\Email), false)
+ 4 SYSTEMPATH\Config\BaseService.php(250): CodeIgniter\Config\BaseService::__callStatic('email', [...])
+ 5 SYSTEMPATH\Config\Services.php(228): CodeIgniter\Config\BaseService::getSharedInstance('email', null)
+ 6 SYSTEMPATH\Config\BaseService.php(320): CodeIgniter\Config\Services::email()
+ 7 APPPATH\Controllers\EmailController.php(22): CodeIgniter\Config\BaseService::__callStatic('email', [])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\EmailController->send()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmailController))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\lndgpgms\\NyetNyet\\public\\index.php')
+CRITICAL - 2024-07-23 07:46:10 --> Error: Cannot use object of type App\Config\Email as array
+[Method: POST, Route: contact/send]
+in SYSTEMPATH\Email\Email.php on line 427.
+ 1 SYSTEMPATH\Email\Email.php(405): CodeIgniter\Email\Email->initialize(Object(App\Config\Email))
+ 2 SYSTEMPATH\Config\Services.php(235): CodeIgniter\Email\Email->__construct(Object(App\Config\Email))
+ 3 SYSTEMPATH\Config\BaseService.php(311): CodeIgniter\Config\Services::email(Object(App\Config\Email), false)
+ 4 SYSTEMPATH\Config\BaseService.php(250): CodeIgniter\Config\BaseService::__callStatic('email', [...])
+ 5 SYSTEMPATH\Config\Services.php(228): CodeIgniter\Config\BaseService::getSharedInstance('email', null)
+ 6 SYSTEMPATH\Config\BaseService.php(320): CodeIgniter\Config\Services::email()
+ 7 APPPATH\Controllers\EmailController.php(22): CodeIgniter\Config\BaseService::__callStatic('email', [])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\EmailController->send()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmailController))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\lndgpgms\\NyetNyet\\public\\index.php')
+CRITICAL - 2024-07-23 07:46:11 --> Error: Cannot use object of type App\Config\Email as array
+[Method: POST, Route: contact/send]
+in SYSTEMPATH\Email\Email.php on line 427.
+ 1 SYSTEMPATH\Email\Email.php(405): CodeIgniter\Email\Email->initialize(Object(App\Config\Email))
+ 2 SYSTEMPATH\Config\Services.php(235): CodeIgniter\Email\Email->__construct(Object(App\Config\Email))
+ 3 SYSTEMPATH\Config\BaseService.php(311): CodeIgniter\Config\Services::email(Object(App\Config\Email), false)
+ 4 SYSTEMPATH\Config\BaseService.php(250): CodeIgniter\Config\BaseService::__callStatic('email', [...])
+ 5 SYSTEMPATH\Config\Services.php(228): CodeIgniter\Config\BaseService::getSharedInstance('email', null)
+ 6 SYSTEMPATH\Config\BaseService.php(320): CodeIgniter\Config\Services::email()
+ 7 APPPATH\Controllers\EmailController.php(22): CodeIgniter\Config\BaseService::__callStatic('email', [])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\EmailController->send()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmailController))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\lndgpgms\\NyetNyet\\public\\index.php')
+CRITICAL - 2024-07-23 07:46:11 --> Error: Cannot use object of type App\Config\Email as array
+[Method: POST, Route: contact/send]
+in SYSTEMPATH\Email\Email.php on line 427.
+ 1 SYSTEMPATH\Email\Email.php(405): CodeIgniter\Email\Email->initialize(Object(App\Config\Email))
+ 2 SYSTEMPATH\Config\Services.php(235): CodeIgniter\Email\Email->__construct(Object(App\Config\Email))
+ 3 SYSTEMPATH\Config\BaseService.php(311): CodeIgniter\Config\Services::email(Object(App\Config\Email), false)
+ 4 SYSTEMPATH\Config\BaseService.php(250): CodeIgniter\Config\BaseService::__callStatic('email', [...])
+ 5 SYSTEMPATH\Config\Services.php(228): CodeIgniter\Config\BaseService::getSharedInstance('email', null)
+ 6 SYSTEMPATH\Config\BaseService.php(320): CodeIgniter\Config\Services::email()
+ 7 APPPATH\Controllers\EmailController.php(22): CodeIgniter\Config\BaseService::__callStatic('email', [])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\EmailController->send()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmailController))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\lndgpgms\\NyetNyet\\public\\index.php')
+CRITICAL - 2024-07-23 07:46:21 --> Error: Cannot use object of type App\Config\Email as array
+[Method: POST, Route: contact/send]
+in SYSTEMPATH\Email\Email.php on line 427.
+ 1 SYSTEMPATH\Email\Email.php(405): CodeIgniter\Email\Email->initialize(Object(App\Config\Email))
+ 2 SYSTEMPATH\Config\Services.php(235): CodeIgniter\Email\Email->__construct(Object(App\Config\Email))
+ 3 SYSTEMPATH\Config\BaseService.php(311): CodeIgniter\Config\Services::email(Object(App\Config\Email), false)
+ 4 SYSTEMPATH\Config\BaseService.php(250): CodeIgniter\Config\BaseService::__callStatic('email', [...])
+ 5 SYSTEMPATH\Config\Services.php(228): CodeIgniter\Config\BaseService::getSharedInstance('email', null)
+ 6 SYSTEMPATH\Config\BaseService.php(320): CodeIgniter\Config\Services::email()
+ 7 APPPATH\Controllers\EmailController.php(11): CodeIgniter\Config\BaseService::__callStatic('email', [])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\EmailController->send()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmailController))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\lndgpgms\\NyetNyet\\public\\index.php')
+CRITICAL - 2024-07-23 07:46:21 --> Error: Cannot use object of type App\Config\Email as array
+[Method: POST, Route: contact/send]
+in SYSTEMPATH\Email\Email.php on line 427.
+ 1 SYSTEMPATH\Email\Email.php(405): CodeIgniter\Email\Email->initialize(Object(App\Config\Email))
+ 2 SYSTEMPATH\Config\Services.php(235): CodeIgniter\Email\Email->__construct(Object(App\Config\Email))
+ 3 SYSTEMPATH\Config\BaseService.php(311): CodeIgniter\Config\Services::email(Object(App\Config\Email), false)
+ 4 SYSTEMPATH\Config\BaseService.php(250): CodeIgniter\Config\BaseService::__callStatic('email', [...])
+ 5 SYSTEMPATH\Config\Services.php(228): CodeIgniter\Config\BaseService::getSharedInstance('email', null)
+ 6 SYSTEMPATH\Config\BaseService.php(320): CodeIgniter\Config\Services::email()
+ 7 APPPATH\Controllers\EmailController.php(11): CodeIgniter\Config\BaseService::__callStatic('email', [])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\EmailController->send()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmailController))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\lndgpgms\\NyetNyet\\public\\index.php')
+CRITICAL - 2024-07-23 07:46:21 --> Error: Cannot use object of type App\Config\Email as array
+[Method: POST, Route: contact/send]
+in SYSTEMPATH\Email\Email.php on line 427.
+ 1 SYSTEMPATH\Email\Email.php(405): CodeIgniter\Email\Email->initialize(Object(App\Config\Email))
+ 2 SYSTEMPATH\Config\Services.php(235): CodeIgniter\Email\Email->__construct(Object(App\Config\Email))
+ 3 SYSTEMPATH\Config\BaseService.php(311): CodeIgniter\Config\Services::email(Object(App\Config\Email), false)
+ 4 SYSTEMPATH\Config\BaseService.php(250): CodeIgniter\Config\BaseService::__callStatic('email', [...])
+ 5 SYSTEMPATH\Config\Services.php(228): CodeIgniter\Config\BaseService::getSharedInstance('email', null)
+ 6 SYSTEMPATH\Config\BaseService.php(320): CodeIgniter\Config\Services::email()
+ 7 APPPATH\Controllers\EmailController.php(11): CodeIgniter\Config\BaseService::__callStatic('email', [])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\EmailController->send()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmailController))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\lndgpgms\\NyetNyet\\public\\index.php')
+CRITICAL - 2024-07-23 07:46:21 --> Error: Cannot use object of type App\Config\Email as array
+[Method: POST, Route: contact/send]
+in SYSTEMPATH\Email\Email.php on line 427.
+ 1 SYSTEMPATH\Email\Email.php(405): CodeIgniter\Email\Email->initialize(Object(App\Config\Email))
+ 2 SYSTEMPATH\Config\Services.php(235): CodeIgniter\Email\Email->__construct(Object(App\Config\Email))
+ 3 SYSTEMPATH\Config\BaseService.php(311): CodeIgniter\Config\Services::email(Object(App\Config\Email), false)
+ 4 SYSTEMPATH\Config\BaseService.php(250): CodeIgniter\Config\BaseService::__callStatic('email', [...])
+ 5 SYSTEMPATH\Config\Services.php(228): CodeIgniter\Config\BaseService::getSharedInstance('email', null)
+ 6 SYSTEMPATH\Config\BaseService.php(320): CodeIgniter\Config\Services::email()
+ 7 APPPATH\Controllers\EmailController.php(11): CodeIgniter\Config\BaseService::__callStatic('email', [])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\EmailController->send()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmailController))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\lndgpgms\\NyetNyet\\public\\index.php')
+CRITICAL - 2024-07-23 07:46:22 --> Error: Cannot use object of type App\Config\Email as array
+[Method: POST, Route: contact/send]
+in SYSTEMPATH\Email\Email.php on line 427.
+ 1 SYSTEMPATH\Email\Email.php(405): CodeIgniter\Email\Email->initialize(Object(App\Config\Email))
+ 2 SYSTEMPATH\Config\Services.php(235): CodeIgniter\Email\Email->__construct(Object(App\Config\Email))
+ 3 SYSTEMPATH\Config\BaseService.php(311): CodeIgniter\Config\Services::email(Object(App\Config\Email), false)
+ 4 SYSTEMPATH\Config\BaseService.php(250): CodeIgniter\Config\BaseService::__callStatic('email', [...])
+ 5 SYSTEMPATH\Config\Services.php(228): CodeIgniter\Config\BaseService::getSharedInstance('email', null)
+ 6 SYSTEMPATH\Config\BaseService.php(320): CodeIgniter\Config\Services::email()
+ 7 APPPATH\Controllers\EmailController.php(11): CodeIgniter\Config\BaseService::__callStatic('email', [])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\EmailController->send()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmailController))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\lndgpgms\\NyetNyet\\public\\index.php')
+CRITICAL - 2024-07-23 07:46:22 --> Error: Cannot use object of type App\Config\Email as array
+[Method: POST, Route: contact/send]
+in SYSTEMPATH\Email\Email.php on line 427.
+ 1 SYSTEMPATH\Email\Email.php(405): CodeIgniter\Email\Email->initialize(Object(App\Config\Email))
+ 2 SYSTEMPATH\Config\Services.php(235): CodeIgniter\Email\Email->__construct(Object(App\Config\Email))
+ 3 SYSTEMPATH\Config\BaseService.php(311): CodeIgniter\Config\Services::email(Object(App\Config\Email), false)
+ 4 SYSTEMPATH\Config\BaseService.php(250): CodeIgniter\Config\BaseService::__callStatic('email', [...])
+ 5 SYSTEMPATH\Config\Services.php(228): CodeIgniter\Config\BaseService::getSharedInstance('email', null)
+ 6 SYSTEMPATH\Config\BaseService.php(320): CodeIgniter\Config\Services::email()
+ 7 APPPATH\Controllers\EmailController.php(11): CodeIgniter\Config\BaseService::__callStatic('email', [])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\EmailController->send()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmailController))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\lndgpgms\\NyetNyet\\public\\index.php')
+CRITICAL - 2024-07-23 07:46:22 --> Error: Cannot use object of type App\Config\Email as array
+[Method: POST, Route: contact/send]
+in SYSTEMPATH\Email\Email.php on line 427.
+ 1 SYSTEMPATH\Email\Email.php(405): CodeIgniter\Email\Email->initialize(Object(App\Config\Email))
+ 2 SYSTEMPATH\Config\Services.php(235): CodeIgniter\Email\Email->__construct(Object(App\Config\Email))
+ 3 SYSTEMPATH\Config\BaseService.php(311): CodeIgniter\Config\Services::email(Object(App\Config\Email), false)
+ 4 SYSTEMPATH\Config\BaseService.php(250): CodeIgniter\Config\BaseService::__callStatic('email', [...])
+ 5 SYSTEMPATH\Config\Services.php(228): CodeIgniter\Config\BaseService::getSharedInstance('email', null)
+ 6 SYSTEMPATH\Config\BaseService.php(320): CodeIgniter\Config\Services::email()
+ 7 APPPATH\Controllers\EmailController.php(11): CodeIgniter\Config\BaseService::__callStatic('email', [])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\EmailController->send()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmailController))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\lndgpgms\\NyetNyet\\public\\index.php')
+CRITICAL - 2024-07-23 07:46:22 --> Error: Cannot use object of type App\Config\Email as array
+[Method: POST, Route: contact/send]
+in SYSTEMPATH\Email\Email.php on line 427.
+ 1 SYSTEMPATH\Email\Email.php(405): CodeIgniter\Email\Email->initialize(Object(App\Config\Email))
+ 2 SYSTEMPATH\Config\Services.php(235): CodeIgniter\Email\Email->__construct(Object(App\Config\Email))
+ 3 SYSTEMPATH\Config\BaseService.php(311): CodeIgniter\Config\Services::email(Object(App\Config\Email), false)
+ 4 SYSTEMPATH\Config\BaseService.php(250): CodeIgniter\Config\BaseService::__callStatic('email', [...])
+ 5 SYSTEMPATH\Config\Services.php(228): CodeIgniter\Config\BaseService::getSharedInstance('email', null)
+ 6 SYSTEMPATH\Config\BaseService.php(320): CodeIgniter\Config\Services::email()
+ 7 APPPATH\Controllers\EmailController.php(11): CodeIgniter\Config\BaseService::__callStatic('email', [])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\EmailController->send()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmailController))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\lndgpgms\\NyetNyet\\public\\index.php')
+CRITICAL - 2024-07-23 07:46:23 --> Error: Cannot use object of type App\Config\Email as array
+[Method: POST, Route: contact/send]
+in SYSTEMPATH\Email\Email.php on line 427.
+ 1 SYSTEMPATH\Email\Email.php(405): CodeIgniter\Email\Email->initialize(Object(App\Config\Email))
+ 2 SYSTEMPATH\Config\Services.php(235): CodeIgniter\Email\Email->__construct(Object(App\Config\Email))
+ 3 SYSTEMPATH\Config\BaseService.php(311): CodeIgniter\Config\Services::email(Object(App\Config\Email), false)
+ 4 SYSTEMPATH\Config\BaseService.php(250): CodeIgniter\Config\BaseService::__callStatic('email', [...])
+ 5 SYSTEMPATH\Config\Services.php(228): CodeIgniter\Config\BaseService::getSharedInstance('email', null)
+ 6 SYSTEMPATH\Config\BaseService.php(320): CodeIgniter\Config\Services::email()
+ 7 APPPATH\Controllers\EmailController.php(11): CodeIgniter\Config\BaseService::__callStatic('email', [])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\EmailController->send()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmailController))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\lndgpgms\\NyetNyet\\public\\index.php')
+CRITICAL - 2024-07-23 07:46:23 --> Error: Cannot use object of type App\Config\Email as array
+[Method: POST, Route: contact/send]
+in SYSTEMPATH\Email\Email.php on line 427.
+ 1 SYSTEMPATH\Email\Email.php(405): CodeIgniter\Email\Email->initialize(Object(App\Config\Email))
+ 2 SYSTEMPATH\Config\Services.php(235): CodeIgniter\Email\Email->__construct(Object(App\Config\Email))
+ 3 SYSTEMPATH\Config\BaseService.php(311): CodeIgniter\Config\Services::email(Object(App\Config\Email), false)
+ 4 SYSTEMPATH\Config\BaseService.php(250): CodeIgniter\Config\BaseService::__callStatic('email', [...])
+ 5 SYSTEMPATH\Config\Services.php(228): CodeIgniter\Config\BaseService::getSharedInstance('email', null)
+ 6 SYSTEMPATH\Config\BaseService.php(320): CodeIgniter\Config\Services::email()
+ 7 APPPATH\Controllers\EmailController.php(11): CodeIgniter\Config\BaseService::__callStatic('email', [])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\EmailController->send()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmailController))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\lndgpgms\\NyetNyet\\public\\index.php')
+CRITICAL - 2024-07-23 07:46:23 --> Error: Cannot use object of type App\Config\Email as array
+[Method: POST, Route: contact/send]
+in SYSTEMPATH\Email\Email.php on line 427.
+ 1 SYSTEMPATH\Email\Email.php(405): CodeIgniter\Email\Email->initialize(Object(App\Config\Email))
+ 2 SYSTEMPATH\Config\Services.php(235): CodeIgniter\Email\Email->__construct(Object(App\Config\Email))
+ 3 SYSTEMPATH\Config\BaseService.php(311): CodeIgniter\Config\Services::email(Object(App\Config\Email), false)
+ 4 SYSTEMPATH\Config\BaseService.php(250): CodeIgniter\Config\BaseService::__callStatic('email', [...])
+ 5 SYSTEMPATH\Config\Services.php(228): CodeIgniter\Config\BaseService::getSharedInstance('email', null)
+ 6 SYSTEMPATH\Config\BaseService.php(320): CodeIgniter\Config\Services::email()
+ 7 APPPATH\Controllers\EmailController.php(11): CodeIgniter\Config\BaseService::__callStatic('email', [])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\EmailController->send()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmailController))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\lndgpgms\\NyetNyet\\public\\index.php')
+CRITICAL - 2024-07-23 07:46:23 --> Error: Cannot use object of type App\Config\Email as array
+[Method: POST, Route: contact/send]
+in SYSTEMPATH\Email\Email.php on line 427.
+ 1 SYSTEMPATH\Email\Email.php(405): CodeIgniter\Email\Email->initialize(Object(App\Config\Email))
+ 2 SYSTEMPATH\Config\Services.php(235): CodeIgniter\Email\Email->__construct(Object(App\Config\Email))
+ 3 SYSTEMPATH\Config\BaseService.php(311): CodeIgniter\Config\Services::email(Object(App\Config\Email), false)
+ 4 SYSTEMPATH\Config\BaseService.php(250): CodeIgniter\Config\BaseService::__callStatic('email', [...])
+ 5 SYSTEMPATH\Config\Services.php(228): CodeIgniter\Config\BaseService::getSharedInstance('email', null)
+ 6 SYSTEMPATH\Config\BaseService.php(320): CodeIgniter\Config\Services::email()
+ 7 APPPATH\Controllers\EmailController.php(11): CodeIgniter\Config\BaseService::__callStatic('email', [])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\EmailController->send()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmailController))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\lndgpgms\\NyetNyet\\public\\index.php')
+CRITICAL - 2024-07-23 07:46:24 --> Error: Cannot use object of type App\Config\Email as array
+[Method: POST, Route: contact/send]
+in SYSTEMPATH\Email\Email.php on line 427.
+ 1 SYSTEMPATH\Email\Email.php(405): CodeIgniter\Email\Email->initialize(Object(App\Config\Email))
+ 2 SYSTEMPATH\Config\Services.php(235): CodeIgniter\Email\Email->__construct(Object(App\Config\Email))
+ 3 SYSTEMPATH\Config\BaseService.php(311): CodeIgniter\Config\Services::email(Object(App\Config\Email), false)
+ 4 SYSTEMPATH\Config\BaseService.php(250): CodeIgniter\Config\BaseService::__callStatic('email', [...])
+ 5 SYSTEMPATH\Config\Services.php(228): CodeIgniter\Config\BaseService::getSharedInstance('email', null)
+ 6 SYSTEMPATH\Config\BaseService.php(320): CodeIgniter\Config\Services::email()
+ 7 APPPATH\Controllers\EmailController.php(11): CodeIgniter\Config\BaseService::__callStatic('email', [])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\EmailController->send()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmailController))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\lndgpgms\\NyetNyet\\public\\index.php')
+CRITICAL - 2024-07-23 07:46:24 --> Error: Cannot use object of type App\Config\Email as array
+[Method: POST, Route: contact/send]
+in SYSTEMPATH\Email\Email.php on line 427.
+ 1 SYSTEMPATH\Email\Email.php(405): CodeIgniter\Email\Email->initialize(Object(App\Config\Email))
+ 2 SYSTEMPATH\Config\Services.php(235): CodeIgniter\Email\Email->__construct(Object(App\Config\Email))
+ 3 SYSTEMPATH\Config\BaseService.php(311): CodeIgniter\Config\Services::email(Object(App\Config\Email), false)
+ 4 SYSTEMPATH\Config\BaseService.php(250): CodeIgniter\Config\BaseService::__callStatic('email', [...])
+ 5 SYSTEMPATH\Config\Services.php(228): CodeIgniter\Config\BaseService::getSharedInstance('email', null)
+ 6 SYSTEMPATH\Config\BaseService.php(320): CodeIgniter\Config\Services::email()
+ 7 APPPATH\Controllers\EmailController.php(11): CodeIgniter\Config\BaseService::__callStatic('email', [])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\EmailController->send()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmailController))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\lndgpgms\\NyetNyet\\public\\index.php')
+CRITICAL - 2024-07-23 07:46:24 --> Error: Cannot use object of type App\Config\Email as array
+[Method: POST, Route: contact/send]
+in SYSTEMPATH\Email\Email.php on line 427.
+ 1 SYSTEMPATH\Email\Email.php(405): CodeIgniter\Email\Email->initialize(Object(App\Config\Email))
+ 2 SYSTEMPATH\Config\Services.php(235): CodeIgniter\Email\Email->__construct(Object(App\Config\Email))
+ 3 SYSTEMPATH\Config\BaseService.php(311): CodeIgniter\Config\Services::email(Object(App\Config\Email), false)
+ 4 SYSTEMPATH\Config\BaseService.php(250): CodeIgniter\Config\BaseService::__callStatic('email', [...])
+ 5 SYSTEMPATH\Config\Services.php(228): CodeIgniter\Config\BaseService::getSharedInstance('email', null)
+ 6 SYSTEMPATH\Config\BaseService.php(320): CodeIgniter\Config\Services::email()
+ 7 APPPATH\Controllers\EmailController.php(11): CodeIgniter\Config\BaseService::__callStatic('email', [])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\EmailController->send()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmailController))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\lndgpgms\\NyetNyet\\public\\index.php')
+CRITICAL - 2024-07-23 07:46:24 --> Error: Cannot use object of type App\Config\Email as array
+[Method: POST, Route: contact/send]
+in SYSTEMPATH\Email\Email.php on line 427.
+ 1 SYSTEMPATH\Email\Email.php(405): CodeIgniter\Email\Email->initialize(Object(App\Config\Email))
+ 2 SYSTEMPATH\Config\Services.php(235): CodeIgniter\Email\Email->__construct(Object(App\Config\Email))
+ 3 SYSTEMPATH\Config\BaseService.php(311): CodeIgniter\Config\Services::email(Object(App\Config\Email), false)
+ 4 SYSTEMPATH\Config\BaseService.php(250): CodeIgniter\Config\BaseService::__callStatic('email', [...])
+ 5 SYSTEMPATH\Config\Services.php(228): CodeIgniter\Config\BaseService::getSharedInstance('email', null)
+ 6 SYSTEMPATH\Config\BaseService.php(320): CodeIgniter\Config\Services::email()
+ 7 APPPATH\Controllers\EmailController.php(11): CodeIgniter\Config\BaseService::__callStatic('email', [])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\EmailController->send()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmailController))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\lndgpgms\\NyetNyet\\public\\index.php')
+CRITICAL - 2024-07-23 07:46:25 --> Error: Cannot use object of type App\Config\Email as array
+[Method: POST, Route: contact/send]
+in SYSTEMPATH\Email\Email.php on line 427.
+ 1 SYSTEMPATH\Email\Email.php(405): CodeIgniter\Email\Email->initialize(Object(App\Config\Email))
+ 2 SYSTEMPATH\Config\Services.php(235): CodeIgniter\Email\Email->__construct(Object(App\Config\Email))
+ 3 SYSTEMPATH\Config\BaseService.php(311): CodeIgniter\Config\Services::email(Object(App\Config\Email), false)
+ 4 SYSTEMPATH\Config\BaseService.php(250): CodeIgniter\Config\BaseService::__callStatic('email', [...])
+ 5 SYSTEMPATH\Config\Services.php(228): CodeIgniter\Config\BaseService::getSharedInstance('email', null)
+ 6 SYSTEMPATH\Config\BaseService.php(320): CodeIgniter\Config\Services::email()
+ 7 APPPATH\Controllers\EmailController.php(11): CodeIgniter\Config\BaseService::__callStatic('email', [])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\EmailController->send()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmailController))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\lndgpgms\\NyetNyet\\public\\index.php')
+CRITICAL - 2024-07-23 07:46:25 --> Error: Cannot use object of type App\Config\Email as array
+[Method: POST, Route: contact/send]
+in SYSTEMPATH\Email\Email.php on line 427.
+ 1 SYSTEMPATH\Email\Email.php(405): CodeIgniter\Email\Email->initialize(Object(App\Config\Email))
+ 2 SYSTEMPATH\Config\Services.php(235): CodeIgniter\Email\Email->__construct(Object(App\Config\Email))
+ 3 SYSTEMPATH\Config\BaseService.php(311): CodeIgniter\Config\Services::email(Object(App\Config\Email), false)
+ 4 SYSTEMPATH\Config\BaseService.php(250): CodeIgniter\Config\BaseService::__callStatic('email', [...])
+ 5 SYSTEMPATH\Config\Services.php(228): CodeIgniter\Config\BaseService::getSharedInstance('email', null)
+ 6 SYSTEMPATH\Config\BaseService.php(320): CodeIgniter\Config\Services::email()
+ 7 APPPATH\Controllers\EmailController.php(11): CodeIgniter\Config\BaseService::__callStatic('email', [])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\EmailController->send()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmailController))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\lndgpgms\\NyetNyet\\public\\index.php')
+CRITICAL - 2024-07-23 07:46:25 --> Error: Cannot use object of type App\Config\Email as array
+[Method: POST, Route: contact/send]
+in SYSTEMPATH\Email\Email.php on line 427.
+ 1 SYSTEMPATH\Email\Email.php(405): CodeIgniter\Email\Email->initialize(Object(App\Config\Email))
+ 2 SYSTEMPATH\Config\Services.php(235): CodeIgniter\Email\Email->__construct(Object(App\Config\Email))
+ 3 SYSTEMPATH\Config\BaseService.php(311): CodeIgniter\Config\Services::email(Object(App\Config\Email), false)
+ 4 SYSTEMPATH\Config\BaseService.php(250): CodeIgniter\Config\BaseService::__callStatic('email', [...])
+ 5 SYSTEMPATH\Config\Services.php(228): CodeIgniter\Config\BaseService::getSharedInstance('email', null)
+ 6 SYSTEMPATH\Config\BaseService.php(320): CodeIgniter\Config\Services::email()
+ 7 APPPATH\Controllers\EmailController.php(11): CodeIgniter\Config\BaseService::__callStatic('email', [])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\EmailController->send()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmailController))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\lndgpgms\\NyetNyet\\public\\index.php')
+CRITICAL - 2024-07-23 07:46:25 --> Error: Cannot use object of type App\Config\Email as array
+[Method: POST, Route: contact/send]
+in SYSTEMPATH\Email\Email.php on line 427.
+ 1 SYSTEMPATH\Email\Email.php(405): CodeIgniter\Email\Email->initialize(Object(App\Config\Email))
+ 2 SYSTEMPATH\Config\Services.php(235): CodeIgniter\Email\Email->__construct(Object(App\Config\Email))
+ 3 SYSTEMPATH\Config\BaseService.php(311): CodeIgniter\Config\Services::email(Object(App\Config\Email), false)
+ 4 SYSTEMPATH\Config\BaseService.php(250): CodeIgniter\Config\BaseService::__callStatic('email', [...])
+ 5 SYSTEMPATH\Config\Services.php(228): CodeIgniter\Config\BaseService::getSharedInstance('email', null)
+ 6 SYSTEMPATH\Config\BaseService.php(320): CodeIgniter\Config\Services::email()
+ 7 APPPATH\Controllers\EmailController.php(11): CodeIgniter\Config\BaseService::__callStatic('email', [])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\EmailController->send()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmailController))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\lndgpgms\\NyetNyet\\public\\index.php')
+CRITICAL - 2024-07-23 07:46:25 --> Error: Cannot use object of type App\Config\Email as array
+[Method: POST, Route: contact/send]
+in SYSTEMPATH\Email\Email.php on line 427.
+ 1 SYSTEMPATH\Email\Email.php(405): CodeIgniter\Email\Email->initialize(Object(App\Config\Email))
+ 2 SYSTEMPATH\Config\Services.php(235): CodeIgniter\Email\Email->__construct(Object(App\Config\Email))
+ 3 SYSTEMPATH\Config\BaseService.php(311): CodeIgniter\Config\Services::email(Object(App\Config\Email), false)
+ 4 SYSTEMPATH\Config\BaseService.php(250): CodeIgniter\Config\BaseService::__callStatic('email', [...])
+ 5 SYSTEMPATH\Config\Services.php(228): CodeIgniter\Config\BaseService::getSharedInstance('email', null)
+ 6 SYSTEMPATH\Config\BaseService.php(320): CodeIgniter\Config\Services::email()
+ 7 APPPATH\Controllers\EmailController.php(11): CodeIgniter\Config\BaseService::__callStatic('email', [])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\EmailController->send()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmailController))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\lndgpgms\\NyetNyet\\public\\index.php')
+CRITICAL - 2024-07-23 07:46:25 --> Error: Cannot use object of type App\Config\Email as array
+[Method: POST, Route: contact/send]
+in SYSTEMPATH\Email\Email.php on line 427.
+ 1 SYSTEMPATH\Email\Email.php(405): CodeIgniter\Email\Email->initialize(Object(App\Config\Email))
+ 2 SYSTEMPATH\Config\Services.php(235): CodeIgniter\Email\Email->__construct(Object(App\Config\Email))
+ 3 SYSTEMPATH\Config\BaseService.php(311): CodeIgniter\Config\Services::email(Object(App\Config\Email), false)
+ 4 SYSTEMPATH\Config\BaseService.php(250): CodeIgniter\Config\BaseService::__callStatic('email', [...])
+ 5 SYSTEMPATH\Config\Services.php(228): CodeIgniter\Config\BaseService::getSharedInstance('email', null)
+ 6 SYSTEMPATH\Config\BaseService.php(320): CodeIgniter\Config\Services::email()
+ 7 APPPATH\Controllers\EmailController.php(11): CodeIgniter\Config\BaseService::__callStatic('email', [])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\EmailController->send()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmailController))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\lndgpgms\\NyetNyet\\public\\index.php')
+CRITICAL - 2024-07-23 07:46:26 --> Error: Cannot use object of type App\Config\Email as array
+[Method: POST, Route: contact/send]
+in SYSTEMPATH\Email\Email.php on line 427.
+ 1 SYSTEMPATH\Email\Email.php(405): CodeIgniter\Email\Email->initialize(Object(App\Config\Email))
+ 2 SYSTEMPATH\Config\Services.php(235): CodeIgniter\Email\Email->__construct(Object(App\Config\Email))
+ 3 SYSTEMPATH\Config\BaseService.php(311): CodeIgniter\Config\Services::email(Object(App\Config\Email), false)
+ 4 SYSTEMPATH\Config\BaseService.php(250): CodeIgniter\Config\BaseService::__callStatic('email', [...])
+ 5 SYSTEMPATH\Config\Services.php(228): CodeIgniter\Config\BaseService::getSharedInstance('email', null)
+ 6 SYSTEMPATH\Config\BaseService.php(320): CodeIgniter\Config\Services::email()
+ 7 APPPATH\Controllers\EmailController.php(11): CodeIgniter\Config\BaseService::__callStatic('email', [])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\EmailController->send()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmailController))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\lndgpgms\\NyetNyet\\public\\index.php')
+CRITICAL - 2024-07-23 07:46:26 --> Error: Cannot use object of type App\Config\Email as array
+[Method: POST, Route: contact/send]
+in SYSTEMPATH\Email\Email.php on line 427.
+ 1 SYSTEMPATH\Email\Email.php(405): CodeIgniter\Email\Email->initialize(Object(App\Config\Email))
+ 2 SYSTEMPATH\Config\Services.php(235): CodeIgniter\Email\Email->__construct(Object(App\Config\Email))
+ 3 SYSTEMPATH\Config\BaseService.php(311): CodeIgniter\Config\Services::email(Object(App\Config\Email), false)
+ 4 SYSTEMPATH\Config\BaseService.php(250): CodeIgniter\Config\BaseService::__callStatic('email', [...])
+ 5 SYSTEMPATH\Config\Services.php(228): CodeIgniter\Config\BaseService::getSharedInstance('email', null)
+ 6 SYSTEMPATH\Config\BaseService.php(320): CodeIgniter\Config\Services::email()
+ 7 APPPATH\Controllers\EmailController.php(11): CodeIgniter\Config\BaseService::__callStatic('email', [])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\EmailController->send()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmailController))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\lndgpgms\\NyetNyet\\public\\index.php')
+CRITICAL - 2024-07-23 07:46:26 --> Error: Cannot use object of type App\Config\Email as array
+[Method: POST, Route: contact/send]
+in SYSTEMPATH\Email\Email.php on line 427.
+ 1 SYSTEMPATH\Email\Email.php(405): CodeIgniter\Email\Email->initialize(Object(App\Config\Email))
+ 2 SYSTEMPATH\Config\Services.php(235): CodeIgniter\Email\Email->__construct(Object(App\Config\Email))
+ 3 SYSTEMPATH\Config\BaseService.php(311): CodeIgniter\Config\Services::email(Object(App\Config\Email), false)
+ 4 SYSTEMPATH\Config\BaseService.php(250): CodeIgniter\Config\BaseService::__callStatic('email', [...])
+ 5 SYSTEMPATH\Config\Services.php(228): CodeIgniter\Config\BaseService::getSharedInstance('email', null)
+ 6 SYSTEMPATH\Config\BaseService.php(320): CodeIgniter\Config\Services::email()
+ 7 APPPATH\Controllers\EmailController.php(11): CodeIgniter\Config\BaseService::__callStatic('email', [])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\EmailController->send()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmailController))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\lndgpgms\\NyetNyet\\public\\index.php')
+CRITICAL - 2024-07-23 07:46:26 --> Error: Cannot use object of type App\Config\Email as array
+[Method: POST, Route: contact/send]
+in SYSTEMPATH\Email\Email.php on line 427.
+ 1 SYSTEMPATH\Email\Email.php(405): CodeIgniter\Email\Email->initialize(Object(App\Config\Email))
+ 2 SYSTEMPATH\Config\Services.php(235): CodeIgniter\Email\Email->__construct(Object(App\Config\Email))
+ 3 SYSTEMPATH\Config\BaseService.php(311): CodeIgniter\Config\Services::email(Object(App\Config\Email), false)
+ 4 SYSTEMPATH\Config\BaseService.php(250): CodeIgniter\Config\BaseService::__callStatic('email', [...])
+ 5 SYSTEMPATH\Config\Services.php(228): CodeIgniter\Config\BaseService::getSharedInstance('email', null)
+ 6 SYSTEMPATH\Config\BaseService.php(320): CodeIgniter\Config\Services::email()
+ 7 APPPATH\Controllers\EmailController.php(11): CodeIgniter\Config\BaseService::__callStatic('email', [])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\EmailController->send()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmailController))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\lndgpgms\\NyetNyet\\public\\index.php')
+CRITICAL - 2024-07-23 07:46:26 --> Error: Cannot use object of type App\Config\Email as array
+[Method: POST, Route: contact/send]
+in SYSTEMPATH\Email\Email.php on line 427.
+ 1 SYSTEMPATH\Email\Email.php(405): CodeIgniter\Email\Email->initialize(Object(App\Config\Email))
+ 2 SYSTEMPATH\Config\Services.php(235): CodeIgniter\Email\Email->__construct(Object(App\Config\Email))
+ 3 SYSTEMPATH\Config\BaseService.php(311): CodeIgniter\Config\Services::email(Object(App\Config\Email), false)
+ 4 SYSTEMPATH\Config\BaseService.php(250): CodeIgniter\Config\BaseService::__callStatic('email', [...])
+ 5 SYSTEMPATH\Config\Services.php(228): CodeIgniter\Config\BaseService::getSharedInstance('email', null)
+ 6 SYSTEMPATH\Config\BaseService.php(320): CodeIgniter\Config\Services::email()
+ 7 APPPATH\Controllers\EmailController.php(11): CodeIgniter\Config\BaseService::__callStatic('email', [])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\EmailController->send()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmailController))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\lndgpgms\\NyetNyet\\public\\index.php')
+CRITICAL - 2024-07-23 07:46:27 --> Error: Cannot use object of type App\Config\Email as array
+[Method: POST, Route: contact/send]
+in SYSTEMPATH\Email\Email.php on line 427.
+ 1 SYSTEMPATH\Email\Email.php(405): CodeIgniter\Email\Email->initialize(Object(App\Config\Email))
+ 2 SYSTEMPATH\Config\Services.php(235): CodeIgniter\Email\Email->__construct(Object(App\Config\Email))
+ 3 SYSTEMPATH\Config\BaseService.php(311): CodeIgniter\Config\Services::email(Object(App\Config\Email), false)
+ 4 SYSTEMPATH\Config\BaseService.php(250): CodeIgniter\Config\BaseService::__callStatic('email', [...])
+ 5 SYSTEMPATH\Config\Services.php(228): CodeIgniter\Config\BaseService::getSharedInstance('email', null)
+ 6 SYSTEMPATH\Config\BaseService.php(320): CodeIgniter\Config\Services::email()
+ 7 APPPATH\Controllers\EmailController.php(11): CodeIgniter\Config\BaseService::__callStatic('email', [])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\EmailController->send()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmailController))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\lndgpgms\\NyetNyet\\public\\index.php')
+ERROR - 2024-07-23 07:46:51 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2024-07-23 07:46:51 --> 220 smtp.gmail.com ESMTP d9443c01a7336-1fd6f31d2b0sm68276005ad.162 - gsmtp
+
+hello: 250-smtp.gmail.com at your service, [2001:448a:4042:3723:904a:8462:c8e:ec65]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+Failed to authenticate password. Error: 534-5.7.9 Application-specific password required. For more information, go to
+534 5.7.9  https://support.google.com/mail/?p=InvalidSecondFactor d9443c01a7336-1fd6f31d2b0sm68276005ad.162 - gsmtp
+
+ERROR - 2024-07-23 07:46:53 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2024-07-23 07:46:53 --> 220 smtp.gmail.com ESMTP d9443c01a7336-1fd6f452205sm67866545ad.223 - gsmtp
+
+hello: 250-smtp.gmail.com at your service, [2001:448a:4042:3723:904a:8462:c8e:ec65]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+Failed to authenticate password. Error: 534-5.7.9 Application-specific password required. For more information, go to
+534 5.7.9  https://support.google.com/mail/?p=InvalidSecondFactor d9443c01a7336-1fd6f452205sm67866545ad.223 - gsmtp
+
+ERROR - 2024-07-23 07:47:54 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2024-07-23 07:47:54 --> 220 smtp.gmail.com ESMTP d9443c01a7336-1fd6f44e956sm67676605ad.215 - gsmtp
+
+hello: 250-smtp.gmail.com at your service, [2001:448a:4042:3723:904a:8462:c8e:ec65]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+Failed to send AUTH LOGIN command. Error: 530-5.7.0 Must issue a STARTTLS command first. For more information, go to
+530-5.7.0  https://support.google.com/a/answer/3221692 and review RFC 3207
+530 5.7.0 specifications. d9443c01a7336-1fd6f44e956sm67676605ad.215 - gsmtp
+
+ERROR - 2024-07-23 07:47:55 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2024-07-23 07:47:55 --> 220 smtp.gmail.com ESMTP d9443c01a7336-1fd6f44b128sm67927505ad.209 - gsmtp
+
+hello: 250-smtp.gmail.com at your service, [2001:448a:4042:3723:904a:8462:c8e:ec65]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+Failed to send AUTH LOGIN command. Error: 530-5.7.0 Must issue a STARTTLS command first. For more information, go to
+530-5.7.0  https://support.google.com/a/answer/3221692 and review RFC 3207
+530 5.7.0 specifications. d9443c01a7336-1fd6f44b128sm67927505ad.209 - gsmtp
+
+ERROR - 2024-07-23 07:49:37 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2024-07-23 07:49:37 --> 220 smtp.gmail.com ESMTP d2e1a72fcca58-70d1fc869cdsm3611761b3a.170 - gsmtp
+
+hello: 250-smtp.gmail.com at your service, [2001:448a:4042:3723:904a:8462:c8e:ec65]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+Failed to send AUTH LOGIN command. Error: 530-5.7.0 Must issue a STARTTLS command first. For more information, go to
+530-5.7.0  https://support.google.com/a/answer/3221692 and review RFC 3207
+530 5.7.0 specifications. d2e1a72fcca58-70d1fc869cdsm3611761b3a.170 - gsmtp
+
+ERROR - 2024-07-23 07:49:38 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2024-07-23 07:49:38 --> 220 smtp.gmail.com ESMTP d9443c01a7336-1fd6f259fdesm68227835ad.53 - gsmtp
+
+hello: 250-smtp.gmail.com at your service, [2001:448a:4042:3723:904a:8462:c8e:ec65]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+Failed to send AUTH LOGIN command. Error: 530-5.7.0 Must issue a STARTTLS command first. For more information, go to
+530-5.7.0  https://support.google.com/a/answer/3221692 and review RFC 3207
+530 5.7.0 specifications. d9443c01a7336-1fd6f259fdesm68227835ad.53 - gsmtp
+
+ERROR - 2024-07-23 07:50:56 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2024-07-23 07:50:56 --> 220 smtp.gmail.com ESMTP d9443c01a7336-1fd6f4533e7sm68007895ad.220 - gsmtp
+
+hello: 250-smtp.gmail.com at your service, [2001:448a:4042:3723:904a:8462:c8e:ec65]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+Failed to send AUTH LOGIN command. Error: 530-5.7.0 Must issue a STARTTLS command first. For more information, go to
+530-5.7.0  https://support.google.com/a/answer/3221692 and review RFC 3207
+530 5.7.0 specifications. d9443c01a7336-1fd6f4533e7sm68007895ad.220 - gsmtp
+
+ERROR - 2024-07-23 07:50:57 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2024-07-23 07:50:57 --> 220 smtp.gmail.com ESMTP 98e67ed59e1d1-2ccf7b30f35sm8338897a91.11 - gsmtp
+
+hello: 250-smtp.gmail.com at your service, [2001:448a:4042:3723:904a:8462:c8e:ec65]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+Failed to send AUTH LOGIN command. Error: 530-5.7.0 Must issue a STARTTLS command first. For more information, go to
+530-5.7.0  https://support.google.com/a/answer/3221692 and review RFC 3207
+530 5.7.0 specifications. 98e67ed59e1d1-2ccf7b30f35sm8338897a91.11 - gsmtp
+
+ERROR - 2024-07-23 07:53:07 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2024-07-23 07:53:07 --> 220 smtp.gmail.com ESMTP d9443c01a7336-1fd6f4306e2sm67597645ad.186 - gsmtp
+
+hello: 250-smtp.gmail.com at your service, [2001:448a:4042:3723:904a:8462:c8e:ec65]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+Failed to send AUTH LOGIN command. Error: 530-5.7.0 Must issue a STARTTLS command first. For more information, go to
+530-5.7.0  https://support.google.com/a/answer/3221692 and review RFC 3207
+530 5.7.0 specifications. d9443c01a7336-1fd6f4306e2sm67597645ad.186 - gsmtp
+
+ERROR - 2024-07-23 07:53:08 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2024-07-23 07:53:08 --> 220 smtp.gmail.com ESMTP d9443c01a7336-1fd6f29456asm68121005ad.98 - gsmtp
+
+hello: 250-smtp.gmail.com at your service, [2001:448a:4042:3723:904a:8462:c8e:ec65]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+Failed to send AUTH LOGIN command. Error: 530-5.7.0 Must issue a STARTTLS command first. For more information, go to
+530-5.7.0  https://support.google.com/a/answer/3221692 and review RFC 3207
+530 5.7.0 specifications. d9443c01a7336-1fd6f29456asm68121005ad.98 - gsmtp
+
+ERROR - 2024-07-23 07:53:08 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2024-07-23 07:53:08 --> 220 smtp.gmail.com ESMTP 41be03b00d2f7-79f0a3deaeasm4963937a12.1 - gsmtp
+
+hello: 250-smtp.gmail.com at your service, [2001:448a:4042:3723:904a:8462:c8e:ec65]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+Failed to send AUTH LOGIN command. Error: 530-5.7.0 Must issue a STARTTLS command first. For more information, go to
+530-5.7.0  https://support.google.com/a/answer/3221692 and review RFC 3207
+530 5.7.0 specifications. 41be03b00d2f7-79f0a3deaeasm4963937a12.1 - gsmtp
+
+ERROR - 2024-07-23 07:53:09 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2024-07-23 07:53:09 --> 220 smtp.gmail.com ESMTP d2e1a72fcca58-70cff4b8166sm6452486b3a.85 - gsmtp
+
+hello: 250-smtp.gmail.com at your service, [2001:448a:4042:3723:904a:8462:c8e:ec65]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+Failed to send AUTH LOGIN command. Error: 530-5.7.0 Must issue a STARTTLS command first. For more information, go to
+530-5.7.0  https://support.google.com/a/answer/3221692 and review RFC 3207
+530 5.7.0 specifications. d2e1a72fcca58-70cff4b8166sm6452486b3a.85 - gsmtp
+
+INFO - 2024-07-23 07:54:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-07-23 07:55:08 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2024-07-23 07:55:08 --> 220 smtp.gmail.com ESMTP d2e1a72fcca58-70d34a276d7sm1846224b3a.180 - gsmtp
+
+hello: 250-smtp.gmail.com at your service, [2001:448a:4042:3723:904a:8462:c8e:ec65]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+Failed to send AUTH LOGIN command. Error: 530-5.7.0 Must issue a STARTTLS command first. For more information, go to
+530-5.7.0  https://support.google.com/a/answer/3221692 and review RFC 3207
+530 5.7.0 specifications. d2e1a72fcca58-70d34a276d7sm1846224b3a.180 - gsmtp
+
+ERROR - 2024-07-23 07:55:08 --> Email gagal dikirim: 220 smtp.gmail.com ESMTP d2e1a72fcca58-70d34a276d7sm1846224b3a.180 - gsmtp
+<br><pre>hello: 250-smtp.gmail.com at your service, [2001:448a:4042:3723:904a:8462:c8e:ec65]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+</pre>Failed to send AUTH LOGIN command. Error: 530-5.7.0 Must issue a STARTTLS command first. For more information, go to
+530-5.7.0  https://support.google.com/a/answer/3221692 and review RFC 3207
+530 5.7.0 specifications. d2e1a72fcca58-70d34a276d7sm1846224b3a.180 - gsmtp
+<br>Unable to send email using SMTP. Your server might not be configured to send mail using this method.<br><pre>Date: Tue, 23 Jul 2024 07:55:07 +0000
+From: &quot;Mesa&quot; &lt;mesab520@gmail.com&gt;
+Return-Path: &lt;mesab520@gmail.com&gt;
+To: mesab520@gmail.com
+Subject: =?UTF-8?Q?halo?=
+Reply-To: &lt;mesab520@gmail.com&gt;
+User-Agent: CodeIgniter
+X-Sender: mesab520@gmail.com
+X-Mailer: CodeIgniter
+X-Priority: 3 (Normal)
+Message-ID: &lt;669f61dbe43b32.21136788@gmail.com&gt;
+Mime-Version: 1.0
+
+
+Content-Type: multipart/alternative; boundary=&quot;B_ALT_669f61dbe43c44.36371873&quot;
+
+This is a multi-part message in MIME format.
+Your email application may not support this format.
+
+--B_ALT_669f61dbe43c44.36371873
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+
+Nama: mesaEmail: advokasisimpleadvokasi@gmail.comPesan: aa
+
+
+--B_ALT_669f61dbe43c44.36371873
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+Nama: mesa&lt;br&gt;Email: advokasisimpleadvokasi@gmail.com&lt;br&gt;Pesan: &lt;br&gt;aa
+
+--B_ALT_669f61dbe43c44.36371873--</pre>
+INFO - 2024-07-23 07:55:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-23 07:55:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

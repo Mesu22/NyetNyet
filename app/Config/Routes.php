@@ -27,14 +27,9 @@ $routes->post('/admin/portfolio/update/(:num)', 'AdminPortfolioController::updat
 $routes->get('/admin/portfolio/delete/(:num)', 'AdminPortfolioController::delete/$1', ['filter' => 'auth']);
 
 //contact
-$routes->get('contact', 'Email::index');
-$routes->post('contact/send', 'Email::send');
+$routes->get('/email', 'EmailController::index');
+$routes->post('/email/send', 'EmailController::send');
 
-
-//resto
-$routes->get('admin', 'RestaurantController::index');
-$routes->get('admin/edit', 'RestaurantController::edit');
-$routes->post('admin/update', 'RestaurantController::update');
 
 
 
