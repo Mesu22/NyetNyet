@@ -6,7 +6,6 @@ use CodeIgniter\Config\BaseConfig;
 use CodeIgniter\Log\Handlers\FileHandler;
 
 class Logger extends BaseConfig
-
 {
     /**
      * --------------------------------------------------------------------------

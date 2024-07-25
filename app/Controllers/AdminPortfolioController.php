@@ -28,7 +28,6 @@ class AdminPortfolioController extends Controller
     {
         $model = new PortfolioModel();
 
-        // Validasi input
         $validation = $this->validate([
             'title' => 'required',
             'category' => 'required',
@@ -45,7 +44,7 @@ class AdminPortfolioController extends Controller
 
         $image = $this->request->getFile('image');
         $imageName = $image->getRandomName();
-        $image->move(FCPATH . 'assets/img/Menu', $imageName); // Pastikan path sesuai dengan struktur folder
+        $image->move(ROOTPATH . 'public/assets/img/Menu', $imageName);
 
         $data = [
             'title' => $this->request->getPost('title'),
@@ -68,7 +67,6 @@ class AdminPortfolioController extends Controller
     {
         $model = new PortfolioModel();
 
-        // Validasi input
         $validation = $this->validate([
             'title' => 'required',
             'category' => 'required',
@@ -90,12 +88,12 @@ class AdminPortfolioController extends Controller
         $image = $this->request->getFile('image');
         if ($image->isValid() && !$image->hasMoved()) {
             $imageName = $image->getRandomName();
-            $image->move(FCPATH . 'assets/img/Menu', $imageName);
+            $image->move('assets/img/Menu', $imageName);
 
             // Hapus gambar lama
             $portfolio = $model->find($id);
-            if (file_exists(FCPATH . 'assets/img/Menu/' . $portfolio['image'])) {
-                unlink(FCPATH . 'assets/img/Menu/' . $portfolio['image']);
+            if (file_exists(ROOTPATH . 'public/assets/img/Menu/' . $portfolio['image'])) {
+                unlink(ROOTPATH . 'public/assets/img/Menu/' . $portfolio['image']);
             }
 
             $data['image'] = $imageName;
@@ -110,8 +108,8 @@ class AdminPortfolioController extends Controller
         $model = new PortfolioModel();
         $portfolio = $model->find($id);
 
-        if (file_exists(FCPATH . 'assets/img/Menu/' . $portfolio['image'])) {
-            unlink(FCPATH . 'assets/img/Menu/' . $portfolio['image']);
+        if (file_exists(ROOTPATH . 'public/assets/img/Menu/' . $portfolio['image'])) {
+            unlink(ROOTPATH . 'public/assets/img/Menu/' . $portfolio['image']);
         }
 
         $model->delete($id);

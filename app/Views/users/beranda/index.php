@@ -428,45 +428,31 @@
         </div><!-- End Google Maps -->
 
         <!-- Form Kontak -->
-        <!-- Formulir Kontak -->
-        <div class="container">
-    <h1>Hubungi Kami</h1>
-    <form action="<?= site_url('email/send') ?>" method="post">
-        <?= csrf_field() ?>
-        <div class="form-group">
-            <label for="name">Nama Anda</label>
-            <input type="text" name="name" id="name" class="form-control" placeholder="Nama Anda" value="<?= old('name') ?>" required>
-            <div class="invalid-feedback"><?= $errors['name'] ?? '' ?></div>
-        </div>
-        <div class="form-group">
-            <label for="email">Email Anda</label>
-            <input type="email" name="email" id="email" class="form-control" placeholder="Email Anda" value="<?= old('email') ?>" required>
-            <div class="invalid-feedback"><?= $errors['email'] ?? '' ?></div>
-        </div>
-        <div class="form-group">
-            <label for="subject">Subjek</label>
-            <input type="text" name="subject" id="subject" class="form-control" placeholder="Subjek" value="<?= old('subject') ?>" required>
-            <div class="invalid-feedback"><?= $errors['subject'] ?? '' ?></div>
-        </div>
-        <div class="form-group">
-            <label for="message">Pesan Anda</label>
-            <textarea name="message" id="message" class="form-control" rows="6" placeholder="Pesan Anda" required><?= old('message') ?></textarea>
-            <div class="invalid-feedback"><?= $errors['message'] ?? '' ?></div>
-        </div>
-        <button type="submit" class="btn btn-primary">Kirim Pesan</button>
-    </form>
-    <?php if (session()->getFlashdata('success')): ?>
-        <div class="alert alert-success mt-3"><?= session()->getFlashdata('success') ?></div>
-    <?php endif; ?>
-    <?php if (session()->getFlashdata('error')): ?>
-        <div class="alert alert-danger mt-3"><?= session()->getFlashdata('error') ?></div>
-    <?php endif; ?>
-    <?php if (session()->getFlashdata('debug')): ?>
-        <div class="alert alert-warning mt-3"><?= session()->getFlashdata('debug') ?></div>
-    <?php endif; ?>
-</div>
-
-        <!-- End Form Kontak -->
+        <div class="col-lg-6">
+            <form action="<?= site_url('contact/send') ?>" method="post" class="php-email-form bg-white p-4 rounded shadow-sm">
+                <h3 class="text-center mb-4">Hubungi Kami</h3>
+                <div class="row gy-4">
+                    <div class="col-md-6">
+                        <input type="text" name="name" class="form-control" placeholder="Nama Anda" required="">
+                    </div>
+                    <div class="col-md-6">
+                        <input type="email" class="form-control" name="email" placeholder="Email Anda" required="">
+                    </div>
+                    <div class="col-md-12">
+                        <input type="text" class="form-control" name="subject" placeholder="Subjek" required="">
+                    </div>
+                    <div class="col-md-12">
+                        <textarea class="form-control" name="message" rows="6" placeholder="Pesan Anda" required=""></textarea>
+                    </div>
+                    <div class="col-md-12 text-center">
+                        <div class="loading">Loading</div>
+                        <div class="error-message"></div>
+                        <div class="sent-message">Pesan Anda telah terkirim. Terima kasih!</div>
+                        <button type="submit" class="btn btn-danger btn-lg">Kirim Pesan</button>
+                    </div>
+                </div>
+            </form>
+        </div><!-- End Form Kontak -->
         <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
     <script>
         $('.php-email-form').on('submit', function(e) {

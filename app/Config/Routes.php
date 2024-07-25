@@ -15,8 +15,8 @@ $routes->get('/admin', 'AdminController::index', ['filter' => 'auth']);
 $routes->get('/login/logout', 'LoginController::logout');
 
 #admin
-$routes->get('/admin', 'Admin::index');
-$routes->get('/admin/users', 'Admin::users'); // Contoh rute lain untuk admin users
+$routes->get('admin', 'Admin\DashboardController::index');
+
 
 // app/Config/Routes.php
 $routes->get('/admin/portfolio', 'AdminPortfolioController::index', ['filter' => 'auth']);
@@ -27,8 +27,12 @@ $routes->post('/admin/portfolio/update/(:num)', 'AdminPortfolioController::updat
 $routes->get('/admin/portfolio/delete/(:num)', 'AdminPortfolioController::delete/$1', ['filter' => 'auth']);
 
 //contact
-$routes->get('/email', 'EmailController::index');
-$routes->post('/email/send', 'EmailController::send');
+$routes->get('contact', 'Email::index');
+$routes->post('contact/send', 'Email::send');
+
+//dashboard
+$routes->get('admin', 'Admin\DashboardController::index');
+$routes->get('daftar-menu', 'Admin\MenuController::index');
 
 
 
