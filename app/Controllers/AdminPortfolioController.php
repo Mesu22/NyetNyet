@@ -7,16 +7,18 @@ use CodeIgniter\Controller;
 
 class AdminPortfolioController extends Controller
 {
+    protected $portfolioModel;
+
     public function __construct()
     {
         helper(['form', 'url', 'filesystem']);
+        $this->portfolioModel = new PortfolioModel();
     }
 
     public function index()
     {
-        $model = new PortfolioModel();
-        $data['portfolios'] = $model->findAll();
-        return view('admin/portfolio', $data);
+        $data['portfolios'] = $this->portfolioModel->findAll();
+        return view('admin/menu', $data);
     }
 
     public function create()
@@ -26,8 +28,6 @@ class AdminPortfolioController extends Controller
 
     public function store()
     {
-        $model = new PortfolioModel();
-
         $validation = $this->validate([
             'title' => 'required',
             'category' => 'required',
@@ -52,21 +52,18 @@ class AdminPortfolioController extends Controller
             'image' => $imageName,
         ];
 
-        $model->save($data);
-        return redirect()->to('/admin/portfolio')->with('success', 'Menu added successfully');
+        $this->portfolioModel->save($data);
+        return redirect()->to('admin')->with('success', 'Menu added successfully');
     }
 
     public function edit($id)
     {
-        $model = new PortfolioModel();
-        $data['portfolio'] = $model->find($id);
+        $data['portfolio'] = $this->portfolioModel->find($id);
         return view('admin/edit_portfolio', $data);
     }
 
     public function update($id)
     {
-        $model = new PortfolioModel();
-
         $validation = $this->validate([
             'title' => 'required',
             'category' => 'required',
@@ -88,31 +85,32 @@ class AdminPortfolioController extends Controller
         $image = $this->request->getFile('image');
         if ($image->isValid() && !$image->hasMoved()) {
             $imageName = $image->getRandomName();
-            $image->move('assets/img/Menu', $imageName);
+            $image->move(ROOTPATH . 'public/assets/img/Menu', $imageName);
 
-            // Hapus gambar lama
-            $portfolio = $model->find($id);
-            if (file_exists(ROOTPATH . 'public/assets/img/Menu/' . $portfolio['image'])) {
-                unlink(ROOTPATH . 'public/assets/img/Menu/' . $portfolio['image']);
+            // Delete old image
+            $portfolio = $this->portfolioModel->find($id);
+            $oldImagePath = ROOTPATH . 'public/assets/img/Menu/' . $portfolio['image'];
+            if (file_exists($oldImagePath)) {
+                unlink($oldImagePath);
             }
 
             $data['image'] = $imageName;
         }
 
-        $model->update($id, $data);
-        return redirect()->to('/admin/portfolio')->with('success', 'Menu updated successfully');
+        $this->portfolioModel->update($id, $data);
+        return redirect()->to('admin')->with('success', 'Menu updated successfully');
     }
 
     public function delete($id)
     {
-        $model = new PortfolioModel();
-        $portfolio = $model->find($id);
+        $portfolio = $this->portfolioModel->find($id);
 
-        if (file_exists(ROOTPATH . 'public/assets/img/Menu/' . $portfolio['image'])) {
-            unlink(ROOTPATH . 'public/assets/img/Menu/' . $portfolio['image']);
+        $imagePath = ROOTPATH . 'public/assets/img/Menu/' . $portfolio['image'];
+        if (file_exists($imagePath)) {
+            unlink($imagePath);
         }
 
-        $model->delete($id);
-        return redirect()->to('/admin/portfolio')->with('success', 'Menu deleted successfully');
+        $this->portfolioModel->delete($id);
+        return redirect()->to('admin')->with('success', 'Menu deleted successfully');
     }
 }

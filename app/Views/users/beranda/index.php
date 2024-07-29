@@ -72,19 +72,20 @@
 
     <!-- Hero Section -->
     <section id="hero" class="hero section dark-background">
+        <?php foreach ($heroSections as $heroSection): ?>
+            <img src="<?= base_url('uploads/hero/' . $heroSection['image']); ?>" alt="<?= $heroSection['title']; ?>" data-aos="fade-in">
 
-    <img src="assets/img/Menu.jpg" alt="" data-aos="fade-in">
-
-  <div class="container" data-aos="fade-up" data-aos-delay="100">
-    <div class="row justify-content-start">
-      <div class="col-lg-8">
-        <h2>Nyet Nyet</h2>
-        <a href="https://wa.me/62+87839995711?text=Halo, Halo Saya Ingin Memesan" class="btn-get-started">Order Sekarang</a>
-      </div>
-    </div>
-  </div>
-
-</section><!-- /Hero Section -->
+            <div class="container" data-aos="fade-up" data-aos-delay="100">
+                <div class="row justify-content-start">
+                    <div class="col-lg-8">
+                        <h2><?= $heroSection['title']; ?></h2>
+                        <a href="https://wa.me/<?= $heroSection['whatsapp_number']; ?>?text=<?= urlencode($heroSection['whatsapp_message']); ?>" class="btn-get-started">Order Sekarang</a>
+                    </div>
+                </div>
+            </div>
+        <?php endforeach; ?>
+    </section>
+<!-- /Hero Section -->
 
     <!-- About Section -->
     <section id="about" class="about section">
@@ -97,56 +98,53 @@
 
       <div class="container">
     <div class="row gy-4 align-items-center">
-        <div class="col-lg-6 order-1 order-lg-2" data-aos="fade-up" data-aos-delay="100">
-            <div class="img-container">
-                <img src="assets/img/banner.jpg" class="img-fluid rounded-3 shadow-lg" alt="Restaurant Image">
+        <?php foreach ($about as $aboutSection): ?>
+            <div class="col-lg-6 order-1 order-lg-2" data-aos="fade-up" data-aos-delay="100">
+                <div class="img-container">
+                    <img src="<?= base_url('uploads/about/' . $aboutSection['image']); ?>" class="img-fluid rounded-3 shadow-lg" alt="<?= esc($aboutSection['title']); ?>">
+                </div>
             </div>
-        </div>
-        <div class="col-lg-6 order-2 order-lg-1" data-aos="fade-up" data-aos-delay="200">
-            <div class="content">
-                <h2 class="display-4 mb-4 text-danger">Selamat Datang di Restoran Kami</h2>
-                <p class="lead fst-italic mb-4 text-danger">
-                    Nikmati pengalaman kuliner terbaik dengan hidangan istimewa dari berbagai belahan dunia.
-                </p>
-                <ul class="list-unstyled mb-0">
-                    <li class="mb-3"><i class="bi bi-check-circle-fill text-danger"></i> <span class="ms-2">Menu Fresh setiap hari.</span></li>
-                    <li class="mb-3"><i class="bi bi-check-circle-fill text-danger"></i> <span class="ms-2">Bahan-bahan berkualitas terbaik.</span></li>
-                    <li class="mb-3"><i class="bi bi-check-circle-fill text-danger"></i> <span class="ms-2">Suasana nyaman dan elegan untuk keluarga dan teman.</span></li>
-                    <li><i class="bi bi-cash text-danger"></i> <span class="ms-2">Harga Mulai dari : Rp 7.000 - 15.000, per Porsi.</span></li>
-                </ul>
+            <div class="col-lg-6 order-2 order-lg-1" data-aos="fade-up" data-aos-delay="200">
+                <div class="content">
+                    <h2 class="display-4 mb-4 text-danger"><?= esc($aboutSection['title']); ?></h2>
+                    <p class="lead fst-italic mb-4 text-danger">
+                        <?= esc($aboutSection['description']); ?>
+                    </p>
+                    <ul class="list-unstyled mb-0">
+                    </ul>
+                </div>
             </div>
-        </div>
+        <?php endforeach; ?>
     </div>
 </div>
 
 
 
 
-    </section><!-- /About Section -->
+    </section>
+    <!-- /About Section -->
     <section id="paket" class="paket section">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-</head>
-<body>
     <div class="container">
-    <div class="container section-title" data-aos="fade-up">
-        <span>Paket Spesial<br></span>
-        <h2>Paket Spesial<br></h2>
-      </div>
-      <div class="paket-item">
-      <link href="<?= base_url('assets'); ?>//css/paket.css" rel="stylesheet">
-        <h3>Paket Spesial Ayam</h3>
-        <p class="paket-description">Goreng/Bakar</p>
-        <div class="paket-details">
-            <p><strong>Harga:</strong> Rp 15.000,- per paket</p>
-            <p><strong>Isi Paket:</strong></p>
-            <ul>
-                <li>Hidangan utama: Nasi + Ayam + Tempe + Kremes + Lalap + Sambal + Terong</li>
-                <li>Minuman: Es Teh</li>
-            </ul>
+        <div class="container section-title" data-aos="fade-up">
+            <span>Paket Spesial<br></span>
+            <h2>Paket Spesial<br></h2>
         </div>
+        <?php foreach ($paket as $paket): ?>
+            <div class="paket-item">
+                <h3><?= $paket['nama'] ?></h3>
+                <p class="paket-description"><?= $paket['deskripsi'] ?></p>
+                <div class="paket-details">
+                    <p><strong>Harga:</strong> Rp <?= number_format($paket['harga'], 0, ',', '.') ?>,- per paket</p>
+                    <p><strong>Isi Paket:</strong></p>
+                    <ul>
+                        <?php foreach (explode("\n", $paket['isi_paket']) as $item): ?>
+                            <li><?= trim($item) ?></li>
+                        <?php endforeach; ?>
+                    </ul>
+                </div>
+            </div>
+        <?php endforeach; ?>
     </div>
-    </div>
-</body>
 </section>
 
 
@@ -188,15 +186,11 @@
                 }
             </script>
             <div class="swiper-wrapper align-items-center">
-                <div class="swiper-slide">
-                    <img src="<?= base_url('assets/img/clients/client-1.png') ?>" class="img-fluid" alt="Client 1">
-                </div>
-                <div class="swiper-slide">
-                    <img src="<?= base_url('assets/img/clients/client-2.png') ?>" class="img-fluid" alt="Client 2">
-                </div>
-                <div class="swiper-slide">
-                    <img src="<?= base_url('assets/img/clients/client-3.png') ?>" class="img-fluid" alt="Client 3">
-                </div>
+                <?php foreach ($clients as $client): ?>
+                    <div class="swiper-slide">
+                        <img src="<?= base_url('uploads/clients/' . $client['image']) ?>" class="img-fluid" alt="<?= $client['name'] ?>">
+                    </div>
+                <?php endforeach; ?>
             </div>
         </div>
     </div>
@@ -205,99 +199,27 @@
 
     <!-- Services Section -->
     <section id="services" class="services section">
-
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
+    <!-- Section Title -->
+    <div class="container section-title" data-aos="fade-up">
         <span>Services</span>
         <h2>Services</h2>
-      </div><!-- End Section Title -->
+    </div><!-- End Section Title -->
 
-      <div class="container">
-
-    <div class="row gy-4">
-
-    <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
-    <div class="service-item position-relative">
-        <div class="icon">
-            <i class="fas fa-concierge-bell"></i>
-        </div>
-        <a href="#" class="stretched-link">
-            <h3>Table Service</h3>
-        </a>
-        <p>Seorang pelayan mampu mengingat pesanan dari setiap pengunjung agar hidangan yang disajikan di hadapan pengunjung sesuai dengan masing-masing pesanan yang diminta.</p>
-    </div>
-</div><!-- End Service Item -->
-
-
-<div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
-    <div class="service-item position-relative">
-        <div class="icon">
-            <i class="bi bi-bag-check-fill"></i>
-        </div>
-        <a href="#" class="stretched-link">
-            <h3>Take Away Service</h3>
-        </a>
-        <p>Tamu dapat membeli makanan yang telah siap atau disiapkan terlebih dahulu, kemudian dibungkus dan mengonsumsinya di luar area restoran.</p>
-    </div>
-</div><!-- End Service Item -->
-
-
-      <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
-        <div class="service-item position-relative">
-          <div class="icon">
-            <i class="bi bi-easel"></i>
-          </div>
-          <a href="#" class="stretched-link">
-            <h3>Counter Service</h3>
-          </a>
-          <p>Tamu dapat memesan dan mengambil pesanan pada counter, kemudian membayarnya di bagian ujung counter.</p>
-        </div>
-      </div><!-- End Service Item -->
-
-    </div>
-
-  </div>
-
-    </section><!-- /Services Section -->
-
-    <section id="call-to-action" class="call-to-action section dark-background">
     <div class="container">
-        <div class="row justify-content-center align-items-center">
-            <div class="col-xl-8 text-center" data-aos="fade-up" data-aos-delay="100">
-                <h2 class="section-title text-white mb-4">Promo Spesial!</h2>
-                <p class="section-subtitle text-white mb-5">Dapatkan penawaran istimewa untuk pengunjung setia kami.</p>
-                <a href="#" class="btn btn-danger btn-lg rounded-pill px-5 py-3">Lihat Promo Sekarang</a>
-            </div>
+        <div class="row gy-4">
+            <?php foreach ($services as $service): ?>
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+                    <div class="service-item position-relative">
+                        <a href="#" class="stretched-link">
+                            <h3><?= $service['title'] ?></h3>
+                        </a>
+                        <p><?= $service['description'] ?></p>
+                    </div>
+                </div>
+            <?php endforeach; ?>
         </div>
     </div>
-    <style>
-        .call-to-action {
-            background-image: url('<?= base_url('assets'); ?>//img/banner.jpg');
-            background-size: cover;
-            background-position: center;
-            padding: 100px 0;
-            text-align: center;
-        }
-        .call-to-action .section-title {
-            font-size: 3rem;
-            font-weight: bold;
-        }
-        .call-to-action .section-subtitle {
-            font-size: 1.5rem;
-        }
-        .call-to-action .btn-danger {
-            background-color: #dc3545;
-            border-color: #dc3545;
-            font-size: 1.25rem;
-            transition: all 0.3s ease;
-        }
-        .call-to-action .btn-danger:hover {
-            background-color: #bd2130;
-            border-color: #bd2130;
-            transform: scale(1.05);
-        }
-    </style>
-</section>
+</section><!-- /Services Section --><!-- /Services Section -->
 
 
     <!-- Portfolio Section -->
@@ -389,32 +311,44 @@
       <div class="row gy-4">
 
 <!-- Alamat -->
-<div class="col-lg-6">
-    <div class="info-item d-flex flex-column justify-content-center align-items-center bg-white p-4 rounded shadow-sm" data-aos="fade-up" data-aos-delay="200">
-        <i class="bi bi-geo-alt text-danger fs-3"></i>
-        <h3 class="mt-3">Alamat</h3>
-        <p class="mb-0">Jl. Ki Ageng Pemanahan Ruko Wirosaban Indah No.33, Sorosutan, Kec. Umbulharjo, Kota Yogyakarta, DIY 55162</p>
-    </div>
-</div><!-- End Alamat -->
-
-<!-- Nomor Telepon -->
-<div class="col-lg-3 col-md-6">
-    <div class="info-item d-flex flex-column justify-content-center align-items-center bg-white p-4 rounded shadow-sm" data-aos="fade-up" data-aos-delay="300">
-        <i class="bi bi-telephone text-danger fs-3"></i>
-        <h3 class="mt-3">Nomor Telepon</h3>
-        <p class="mb-0">087839995711</p>
-    </div>
-</div><!-- End Nomor Telepon -->
-
-<!-- Email -->
-<div class="col-lg-3 col-md-6">
-    <div class="info-item d-flex flex-column justify-content-center align-items-center bg-white p-4 rounded shadow-sm" data-aos="fade-up" data-aos-delay="400">
-        <i class="bi bi-envelope text-danger fs-3"></i>
-        <h3 class="mt-3">Email</h3>
-        <p class="mb-0">mesab520@gmail.com</p>
-    </div>
-</div><!-- End Email -->
-
+<div class="row gy-4">
+    <?php if (isset($contactInfo) && is_array($contactInfo) && !empty($contactInfo)): ?>
+        <?php foreach ($contactInfo as $contact): ?>
+            <?php switch ($contact['type']):
+                case 'address': ?>
+                    <div class="col-lg-6">
+                        <div class="info-item d-flex flex-column justify-content-center align-items-center bg-white p-4 rounded shadow-sm" data-aos="fade-up" data-aos-delay="200">
+                            <i class="bi bi-geo-alt text-danger fs-3"></i>
+                            <h3 class="mt-3">Alamat</h3>
+                            <p class="mb-0"><?= esc($contact['value']) ?></p>
+                        </div>
+                    </div>
+                    <?php break; ?>
+                <?php case 'phone': ?>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="info-item d-flex flex-column justify-content-center align-items-center bg-white p-4 rounded shadow-sm" data-aos="fade-up" data-aos-delay="300">
+                            <i class="bi bi-telephone text-danger fs-3"></i>
+                            <h3 class="mt-3">Nomor Telepon</h3>
+                            <p class="mb-0"><?= esc($contact['value']) ?></p>
+                        </div>
+                    </div>
+                    <?php break; ?>
+                <?php case 'email': ?>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="info-item d-flex flex-column justify-content-center align-items-center bg-white p-4 rounded shadow-sm" data-aos="fade-up" data-aos-delay="400">
+                            <i class="bi bi-envelope text-danger fs-3"></i>
+                            <h3 class="mt-3">Email</h3>
+                            <p class="mb-0"><?= esc($contact['value']) ?></p>
+                        </div>
+                    </div>
+                    <?php break; ?>
+            <?php endswitch; ?>
+        <?php endforeach; ?>
+    <?php else: ?>
+        <div class="col-12">
+            <p class="text-center">Informasi kontak tidak tersedia saat ini.</p>
+        </div>
+    <?php endif; ?>
 </div>
 
 
@@ -428,60 +362,37 @@
         </div><!-- End Google Maps -->
 
         <!-- Form Kontak -->
-        <div class="col-lg-6">
-            <form action="<?= site_url('contact/send') ?>" method="post" class="php-email-form bg-white p-4 rounded shadow-sm">
-                <h3 class="text-center mb-4">Hubungi Kami</h3>
-                <div class="row gy-4">
-                    <div class="col-md-6">
-                        <input type="text" name="name" class="form-control" placeholder="Nama Anda" required="">
-                    </div>
-                    <div class="col-md-6">
-                        <input type="email" class="form-control" name="email" placeholder="Email Anda" required="">
-                    </div>
-                    <div class="col-md-12">
-                        <input type="text" class="form-control" name="subject" placeholder="Subjek" required="">
-                    </div>
-                    <div class="col-md-12">
-                        <textarea class="form-control" name="message" rows="6" placeholder="Pesan Anda" required=""></textarea>
-                    </div>
-                    <div class="col-md-12 text-center">
-                        <div class="loading">Loading</div>
-                        <div class="error-message"></div>
-                        <div class="sent-message">Pesan Anda telah terkirim. Terima kasih!</div>
-                        <button type="submit" class="btn btn-danger btn-lg">Kirim Pesan</button>
-                    </div>
-                </div>
-            </form>
-        </div><!-- End Form Kontak -->
-        <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
-    <script>
-        $('.php-email-form').on('submit', function(e) {
-            e.preventDefault();
-            $('.loading').show();
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <script>
+            $(document).ready(function() {
+                $('#contactForm').on('submit', function(e) {
+                    e.preventDefault();
+                    $('.loading').show();
+                    $('.error-message').hide();
+                    $('.sent-message').hide();
 
-            var form = $(this);
-            var formData = form.serialize();
-
-            $.ajax({
-                url: form.attr('action'),
-                type: 'POST',
-                data: formData,
-                success: function(response) {
-                    $('.loading').hide();
-                    if (response == 'success') {
-                        $('.sent-message').show();
-                        form[0].reset();
-                    } else {
-                        $('.error-message').show().text(response);
-                    }
-                },
-                error: function() {
-                    $('.loading').hide();
-                    $('.error-message').show().text('Something went wrong. Please try again.');
-                }
+                    $.ajax({
+                        url: $(this).attr('action'),
+                        type: 'POST',
+                        data: $(this).serialize(),
+                        dataType: 'json',
+                        success: function(response) {
+                            $('.loading').hide();
+                            if (response.status === 'success') {
+                                $('.sent-message').show().text(response.message);
+                                $('#contactForm')[0].reset();
+                            } else {
+                                $('.error-message').show().text(response.message);
+                            }
+                        },
+                        error: function() {
+                            $('.loading').hide();
+                            $('.error-message').show().text('An error occurred. Please try again.');
+                        }
+                    });
+                });
             });
-        });
-    </script>
+        </script>
 
     </div>
 </div>

@@ -15,3 +15,4 @@ class UserModel extends Model
         return $this->where('username', $username)->first();
     }
 }
+
